@@ -15,4 +15,10 @@ function setup() {
 
 function draw() {
   // write your codes here
+  fill(255, 0, 0)
+  ellipse(300, 100, 100, 100)
+  fill(255, 255, 0)
+  ellipse(300, 200, 100, 100)
+  fill(0, 255, 0)
+  ellipse(300, 300, 100, 100)
 }
