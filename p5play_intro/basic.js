@@ -73,8 +73,8 @@ function setup() {
   let num = 19;
   while (num >= 1){
     console.log(num);
+    oddSum = oddSum + num;
     num = num - 2;
-    oddSum = oddSum + num
   }
 console.log(oddSum)
   // --- Exercise: Array operations (groceries) ---
