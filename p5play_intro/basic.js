@@ -71,6 +71,8 @@ function setup() {
 
   let oddSum = 0;
   let num = 19;
+  let xOdd = 20
+  let
   while (num >= 1){
     console.log(num);
     oddSum = oddSum + num;
