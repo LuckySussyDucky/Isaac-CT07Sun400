@@ -10,7 +10,7 @@ function setup() {
   let sum = a + b;
   let product = a * b;
   console.log("The sum is, " + sum);
-  comsole.log("The product is," + product)
+  comsole.log("The product is," + product);
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
