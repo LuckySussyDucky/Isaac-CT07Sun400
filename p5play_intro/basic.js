@@ -76,10 +76,11 @@ function setup() {
   while (num >= 1){
     console.log(num);
     text(num, xOdd, yOdd);
-    xOdd +
+    xOdd += 50;
     oddSum = oddSum + num;
     num = num - 2;
   }
+  test
 console.log(oddSum);
 
   // --- Exercise: Array operations (groceries) ---
