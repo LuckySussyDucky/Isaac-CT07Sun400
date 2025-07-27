@@ -40,7 +40,7 @@ function setup() {
 
     let score = 100
     if (score > 90){
-      console.log()
+      console.log("Excellent!");
     }
 
   // --- Exercise: Display odd numbers backward using while loop ---
