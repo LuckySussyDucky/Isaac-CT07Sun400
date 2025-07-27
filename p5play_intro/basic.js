@@ -72,12 +72,12 @@ function setup() {
   let oddSum = 0;
   let num = 19;
   let xOdd = 20;
-  let yOdd = yEven + ;
+  let yOdd = yEven + 50;
   while (num >= 1){
     console.log(num);
     oddSum = oddSum + num;
     num = num - 2;
-    xOdd = xOdd + 30
+    xOdd = xOdd + 30;
   }
 console.log(oddSum);
 
