@@ -47,7 +47,7 @@ function setup() {
   //   console.log("Keep Improving!");
   // )
   
-  let age = 13;
+  let age = 20;
   let category = "";
   if (age <= 9){
     category="lower primary";
