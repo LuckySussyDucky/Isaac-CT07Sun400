@@ -3,8 +3,10 @@ function setup() {
   background(250);
   textSize(16);
   fill(0);
+
   // write your codes here
   let a = 5;
+  let b = 10;
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
