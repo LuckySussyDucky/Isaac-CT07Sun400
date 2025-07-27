@@ -26,7 +26,7 @@ function setup() {
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
-  let sum = 0;
+  let evenSum = 0;
   let yEven = 90;
   for (let i = 2; i <= 20; i+=2){
     sum = sum + i;
