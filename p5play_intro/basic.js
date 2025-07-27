@@ -13,10 +13,10 @@ function setup() {
   // console.log("The sum is " + sum);
   // console.log("The product is" + product);
   // text("The sum is " + sum, 20, 30)
-  
+
   // --- Exercise: Area of Triangle ---
   // write your codes here
-
+  
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
