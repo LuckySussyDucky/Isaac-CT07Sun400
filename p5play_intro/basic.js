@@ -30,7 +30,7 @@ function setup() {
   let yEven = 90;
   for (let i = 2; i <= 20; i+=2){
     sum = sum + i;
-    text(i, 20 + i * 25, yEven)
+    text(i, 20 + i * 30, yEven);
   };
   console.log("The sum of the first 10 even numbers is " + sum)
   text("The sum of the first 10 even numbers is " + sum, 20, 60)
