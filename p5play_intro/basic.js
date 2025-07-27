@@ -89,7 +89,7 @@ console.log(oddSum);
   let groceries = ["Apple", "Bread", "Milk"];
   groceries.push("Orange");
   groceries.push("Butter");
-  
+  console.log(gro)
 
 }
 
