@@ -47,7 +47,7 @@ function setup() {
   //   console.log("Keep Improving!");
   // )
   
-  let age = 11;
+  let age = 13;
   if (age <= 9){
     console.log("You are in lower primary")
   }else if (age <= 12){
