@@ -85,5 +85,8 @@ console.log(oddSum);
 
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
+
+  
+
 }
 
