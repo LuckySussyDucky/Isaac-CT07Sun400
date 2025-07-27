@@ -32,7 +32,7 @@ function setup() {
     evenSum = evenSum + i;
     text(i, 20 + i * 30, yEven);
   };
-  console.log("The sum of the first 10 even numbers is " + evensum);
+  console.log("The sum of the first 10 even numbers is " + evenSum);
   text("The sum of the first 10 even numbers is " + evenSum, 20, 60);
 
   // --- Exercise: Age category classification ---
