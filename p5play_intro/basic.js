@@ -7,6 +7,7 @@ function setup() {
   // write your codes here
   let a = 5;
   let b = 10;
+  let sound
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
