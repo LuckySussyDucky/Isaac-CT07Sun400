@@ -27,6 +27,7 @@ function setup() {
   // write your codes here
 
   let sum = 0;
+  let
   for (let i = 2; i <= 20; i+=2){
     sum = sum + i;
   };
