@@ -42,7 +42,7 @@ function setup() {
     if (score > 90){
       console.log("Excellent!");
     }else if ( score > 70){
-      
+      console.log("Good Job!");
     }
 
   // --- Exercise: Display odd numbers backward using while loop ---
