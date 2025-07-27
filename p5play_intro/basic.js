@@ -50,7 +50,7 @@ function setup() {
   let age = 20;
   let category = "";
   if (age <= 9){
-    category="lower primary";
+    category = "lower primary";
   }else if (age <= 12){
     category = "upper primary";
   }else if (age <= 16){
