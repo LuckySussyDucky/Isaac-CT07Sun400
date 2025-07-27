@@ -70,7 +70,9 @@ function setup() {
   // }
 
   let num = 19
-  
+  while (num > 1){
+    
+  }
 
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
