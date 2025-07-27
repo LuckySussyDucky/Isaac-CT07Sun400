@@ -31,6 +31,7 @@ function setup() {
     sum = sum + i
   };
   console.log("The sum of the first 10 even numbers is " + sum)
+  text()
 
   // --- Exercise: Age category classification ---
   // write your codes here
