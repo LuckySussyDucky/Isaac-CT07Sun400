@@ -22,6 +22,7 @@ function setup() {
   let area = base * height * 0.5;
   console.log("The area is " + area);
   text("The area is " + area, 20, 30);
+  
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
