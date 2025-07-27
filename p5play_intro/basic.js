@@ -72,7 +72,7 @@ function setup() {
   let oddSum = 0;
   let num = 19;
   let xOdd = 20
-  let Y
+  let yOdd = Y 
   while (num >= 1){
     console.log(num);
     oddSum = oddSum + num;
