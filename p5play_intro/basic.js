@@ -28,8 +28,8 @@ function setup() {
 
   let sum = 0;
   for (let i = 2; i <= 20; i+=2){
-    sum = sum + i;
-  }
+    sum = sum + i
+  };
 
   // --- Exercise: Age category classification ---
   // write your codes here
