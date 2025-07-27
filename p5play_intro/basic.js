@@ -71,6 +71,7 @@ function setup() {
 
   let num = 19
   while (num > 1){
+    console.log(num)
     
   }
 
