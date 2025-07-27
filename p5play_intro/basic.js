@@ -70,7 +70,7 @@ function setup() {
   // }
 
   let num = 19
-  while (num > 1){
+  while (num > 0){
     console.log(num)
     num = num - 2
   }
