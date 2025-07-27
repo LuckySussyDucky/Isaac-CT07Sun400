@@ -44,10 +44,19 @@ function setup() {
   // }else if ( score > 70){
   //   console.log("Good job!");
   // }else(
-  //   console.log("Keep Improving!")
+  //   console.log("Keep Improving!");
   // )
   
-  age
+  let age = 11;
+  if (age <= 9){
+    console.log("You are in lower primary")
+  }else if (age <= 12){
+    console.log("You are in upper primary")
+  }else if (age <= 16){
+    console.log("You are in secondary")
+  }else{
+    console.log("You are old")
+  }
 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
