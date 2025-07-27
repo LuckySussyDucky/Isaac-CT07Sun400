@@ -69,6 +69,7 @@ function setup() {
   //   count = count + 1
   // }
 
+  let num = 19
   
 
   // --- Exercise: Array operations (groceries) ---
