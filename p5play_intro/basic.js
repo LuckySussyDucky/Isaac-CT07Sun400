@@ -76,7 +76,7 @@ function setup() {
     num = num - 2;
     oddSum = oddSum + num
   }
-
+console.log(oddSum)
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 }
