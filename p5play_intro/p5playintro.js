@@ -26,7 +26,7 @@ function setup() {
   ball.vel.x = 3; //set velocity for x-axis
   ball.vel.y = 3; //set velocity for y-axis
   ball.bounciness = 1; //for more realistic bounce
-  ball.collider = "dynamic";
+  ball.collider = "dynamic"; 
 
   box = new Sprite();
   box.x = 400;
