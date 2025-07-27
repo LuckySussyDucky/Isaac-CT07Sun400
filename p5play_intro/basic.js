@@ -29,8 +29,8 @@ function setup() {
   let sum = 0;
   for (let i = 2; i <= 20; i+=2){
     sum = sum + i
-    console.log("The sum of the first 10 even numbers is " + sum)
   };
+  console.log("The sum of the first 10 even numbers is " + sum)
 
   // --- Exercise: Age category classification ---
   // write your codes here
