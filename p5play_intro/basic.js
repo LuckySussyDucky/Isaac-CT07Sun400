@@ -22,10 +22,11 @@ function setup() {
   let area = base * height * 0.5;
   console.log("The area is " + area);
   text("The area is " + area, 20, 30);
-  
+
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
+  for (let i = 1; i <=10; i++){}
   // --- Exercise: Age category classification ---
   // write your codes here
 
