@@ -76,6 +76,7 @@ function setup() {
   while (num >= 1){
     console.log(num);
     text(num, xOdd, yOdd);
+    xOdd +
     oddSum = oddSum + num;
     num = num - 2;
   }
