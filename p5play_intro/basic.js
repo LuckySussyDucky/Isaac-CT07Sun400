@@ -9,8 +9,8 @@ function setup() {
   let b = 10;
   let sum = a + b;
   let product = a * b;
-  console.log("The sum is, " + sum);
-  console.log("The product is," + product);
+  console.log("The sum is " + sum);
+  console.log("The product is" + product);
   text("The sum is " + sum, 20, 30)
   // --- Exercise: Area of Triangle ---
   // write your codes here
