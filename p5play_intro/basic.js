@@ -29,7 +29,7 @@ function setup() {
   let evenSum = 0;
   let yEven = 90;
   for (let i = 2; i <= 20; i+=2){
-    sum = sum + i;
+    evenSum = evenSum + i;
     text(i, 20 + i * 30, yEven);
   };
   console.log("The sum of the first 10 even numbers is " + sum);
