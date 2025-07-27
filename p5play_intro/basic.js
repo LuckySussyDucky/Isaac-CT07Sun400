@@ -52,7 +52,7 @@ function setup() {
   if (age <= 9){
     category="lower primary"
   }else if (age <= 12){
-    category
+    category = "upper primary"
   }else if (age <= 16){
     console.log("You are in secondary")
   }else{
