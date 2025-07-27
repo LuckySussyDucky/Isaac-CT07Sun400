@@ -48,7 +48,7 @@ function setup() {
   // )
   
   let age = 13;
-  let category = " "
+  let category = "";
   if (age <= 9){
     console.log("You are in lower primary")
   }else if (age <= 12){
