@@ -90,7 +90,8 @@ console.log(oddSum);
   groceries.push("Orange");
   groceries.push("Butter");
   console.log(groceries);
-  groceries.shift(0);
+  groceries.shift();
+  gr
 
 }
 
