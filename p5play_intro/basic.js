@@ -63,6 +63,8 @@ function setup() {
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
 
+  
+
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 }
