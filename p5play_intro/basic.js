@@ -26,7 +26,7 @@ function setup() {
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
-  for (let i = 20; i >= 20; i++){
+  for (let i = 20; i >= 1; i--){
     console.log("Counting... " + i)
   }
 
