@@ -47,7 +47,7 @@ function setup() {
   //   console.log("Keep Improving!");
   // )
   
-  let age = Math.floor(Math.random() * (25 - 1 + 1));
+  let age = Math.floor(Math.random() * (25 - 1 + 1)) + 7;
   let category = "";
   if (age <= 9){
     category = "lower primary";
