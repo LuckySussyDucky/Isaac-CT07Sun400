@@ -56,7 +56,7 @@ function setup() {
   }else if (age <= 16){
     category = "secondary";
   }else{
-    console.log("You are old")
+    category = "";
   }
 
   // --- Exercise: Display odd numbers backward using while loop ---
