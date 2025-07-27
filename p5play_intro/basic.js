@@ -69,10 +69,12 @@ function setup() {
   //   count = count + 1
   // }
 
+  
   let num = 19;
   while (num >= 1){
     console.log(num);
     num = num - 2;
+
   }
 
   // --- Exercise: Array operations (groceries) ---
