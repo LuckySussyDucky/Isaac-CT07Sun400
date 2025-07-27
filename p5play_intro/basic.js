@@ -80,7 +80,7 @@ function setup() {
     oddSum = oddSum + num;
     num = num - 2;
   }
-  test
+  text("Total sum of odd numbers is " + oddSum)
 console.log(oddSum);
 
   // --- Exercise: Array operations (groceries) ---
