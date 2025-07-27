@@ -11,7 +11,7 @@ function setup() {
   let product = a * b;
   console.log("The sum is, " + sum);
   console.log("The product is," + product);
-  text("The sum is" + sum)
+  text("The sum is " + sum, 20, 30)
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
