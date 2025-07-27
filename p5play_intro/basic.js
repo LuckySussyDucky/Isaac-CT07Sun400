@@ -38,14 +38,14 @@ function setup() {
   // --- Exercise: Age category classification ---
   // write your codes here
 
-    let score = 100
-    if (score > 90){
-      console.log("Excellent!");
-    }else if ( score > 70){
-      console.log("Good job!");
-    }else(
-      console.log("Keep Improving")
-    )
+    // let score = 100
+    // if (score > 90){
+    //   console.log("Excellent!");
+    // }else if ( score > 70){
+    //   console.log("Good job!");
+    // }else(
+    //   console.log("Keep Improving!")
+    // )
 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
