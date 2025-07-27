@@ -58,7 +58,7 @@ function setup() {
   }else{
     category = "you are old";
   }
-  text("You are")
+  text("You are " + age + "in")
 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
