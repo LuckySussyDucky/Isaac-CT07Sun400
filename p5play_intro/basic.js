@@ -29,7 +29,7 @@ function setup() {
   let sum = 0;
   for (let i = 2; i <= 20; i+=2){
     sum = sum + i
-    comsole.log()
+    comsole.log("The sumof the first 10 even numbers is ")
   };
 
   // --- Exercise: Age category classification ---
