@@ -69,6 +69,8 @@ function setup() {
   //   count = count + 1
   // }
 
+  
+
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 }
