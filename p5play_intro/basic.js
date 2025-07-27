@@ -17,11 +17,11 @@ function setup() {
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
-  let base = 10
-  let height = 5
-  let area = base * height * 0.5
-  console.log("The area is " + area)
-  text("The sum is " + )
+  let base = 10;
+  let height = 5;
+  let area = base * height * 0.5;
+  console.log("The area is " + area);
+  text("The sum is " + area, 20, 30);
   // --- Exercise: Sum of first 10 even numbers ---
   // write your codes here
 
