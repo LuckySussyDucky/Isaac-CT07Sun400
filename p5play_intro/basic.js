@@ -47,7 +47,7 @@ function setup() {
   //   console.log("Keep Improving!")
   // )
   
-  
+  age
 
   // --- Exercise: Display odd numbers backward using while loop ---
   // write your codes here
