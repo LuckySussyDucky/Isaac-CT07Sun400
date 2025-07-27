@@ -1,4 +1,5 @@
 function setup() {
+  new Canvas()
   // write your codes here
   let a = 5;
   // --- Exercise: Area of Triangle ---
