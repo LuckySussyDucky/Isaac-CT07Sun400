@@ -64,7 +64,10 @@ function setup() {
   // write your codes here
 
   let count = 0
-  while (count < 5){}
+  while (count < 5){
+    console.log(count);
+    
+  }
 
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
