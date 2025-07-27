@@ -86,7 +86,7 @@ console.log(oddSum);
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 
-  
+  let groceries = [apple]
 
 }
 
