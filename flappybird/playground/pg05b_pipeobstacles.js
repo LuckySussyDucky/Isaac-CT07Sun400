@@ -73,8 +73,7 @@ function draw(){ //must have function
     }
 
     if(mouse.presses("left")){
-        bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "dyanmic");
-        bird2.img = flapMidImg
+        box.visible
     }
     if(mouse.presses("right")){
         bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "static");
