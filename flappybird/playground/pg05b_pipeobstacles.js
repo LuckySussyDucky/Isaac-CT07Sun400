@@ -10,9 +10,9 @@ let box;
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
-    flapMidImg = loadImage("assets/yellowbird-midflap.png");
-    flapDownImg = loadImage("assets/yellowbird-downflap.png");
-    flapUpImg = loadImage("assets/yellowbird-upflap.png");
+    flapMidImgY = loadImage("assets/yellowbird-midflap.png");
+    flapDownImgY = loadImage("assets/yellowbird-downflap.png");
+    flapUpImgY = loadImage("assets/yellowbird-upflap.png");
     lapMidImg = loadImage("assets/yellowbird-midflap.png");
     flapDownImg = loadImage("assets/yellowbird-downflap.png");
     flapUpImg = loadImage("assets/yellowbird-upflap.png");
