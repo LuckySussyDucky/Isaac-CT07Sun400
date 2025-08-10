@@ -45,9 +45,10 @@ function setup(){ //must have function
     box.height = 200;
     box.collider = "none";
 
-    birdRed = new Sprite(box.x - 10, box.y, 25, 25);
+    birdRed = new Sprite(box.x - 25, box.y, 25, 25);
     birdRed.img = flapMidImgR;
-    
+    birdRed.collider = "none";
+
     floor = new Sprite();
     floor.x = 200;
     floor.y = height - 20;
