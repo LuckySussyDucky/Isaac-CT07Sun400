@@ -43,7 +43,8 @@ function setup(){ //must have function
     box = new Sprite();
     box.x = width / 2;
     box.y = height / 2;
-    box.width = 100
+    box.width = 200;
+    box.height = 100;
     box.collider = "none";
 
     pipeGroup = new Group();
