@@ -40,7 +40,6 @@ function setup(){ //must have function
     floor.img = base;
 
     pipeGroup = new pipeGroup();
-    
 }
 
 function draw(){ //must have function
