@@ -47,7 +47,7 @@ function setup(){ //must have function
 
     birdRed = new Sprite(box.x - 10, box.y, 25, 25);
     birdRed.img = flapMidImgR;
-
+    
     floor = new Sprite();
     floor.x = 200;
     floor.y = height - 20;
