@@ -74,3 +74,5 @@ function draw(){ //must have function
     // }
 
 }
+
+function spawnPipePair()
