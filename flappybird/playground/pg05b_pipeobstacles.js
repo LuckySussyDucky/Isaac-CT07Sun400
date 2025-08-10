@@ -1,6 +1,6 @@
 let background, base;
 let bird, birdRed, birdYellow, floor;
-let flapDownImgY, flapUpImgY, flapMidImgY, flapDownImgB, flapUpImgB, flapMidImgB, flapDownImgR, flapUpImgR, flapMidImgR;
+let flapDownImgY, flapUpImgY, flapMidImg, flapDownImgB, flapUpImgB, flapMidImgB, flapDownImgR, flapUpImgR, flapMidImgR;
 // let bird2;
 let pipeGroup; //declare the variable for the group
 let pipe; //used to preload the pipe image
@@ -10,9 +10,9 @@ let box;
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
-    flapMidImgY = loadImage("assets/yellowbird-midflap.png");
-    flapDownImgY = loadImage("assets/yellowbird-downflap.png");
-    flapUpImgY = loadImage("assets/yellowbird-upflap.png");
+    flapMidImg = loadImage("assets/yellowbird-midflap.png");
+    flapDownImg = loadImage("assets/yellowbird-downflap.png");
+    flapUpImg = loadImage("assets/yellowbird-upflap.png");
     flapMidImgB = loadImage("assets/bluebird-midflap.png");
     flapDownImgB = loadImage("assets/bluebird-downflap.png");
     flapUpImgB = loadImage("assets/bluebird-upflap.png");
