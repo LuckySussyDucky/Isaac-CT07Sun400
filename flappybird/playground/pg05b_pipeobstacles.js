@@ -4,6 +4,7 @@ let flapDownImg, flapUpImg, flapMidImg;
 let bird2;
 let pipeGroup; //declare the variable for the group
 let pipe; //used to preload the pipe image
+let topPipe
 
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
