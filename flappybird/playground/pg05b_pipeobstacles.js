@@ -60,7 +60,9 @@ function draw(){ //must have function
         bird.rotation = 0;
     }
 
-    
+    if(frameCount === 1){
+        
+    }
 
     // if(mouse.presses("left")){
     //     bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "dyanmic");
