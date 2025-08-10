@@ -44,7 +44,7 @@ function setup(){ //must have function
     box.x = width / 2;
     box.y = height / 2;
     box.width = 200;
-    box.height = 100;
+    box.height = 200;
     box.collider = "none";
 
     pipeGroup = new Group();
