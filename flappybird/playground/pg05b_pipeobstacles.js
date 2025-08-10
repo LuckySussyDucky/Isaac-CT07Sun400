@@ -5,7 +5,7 @@ let bird2;
 let pipeGroup; //declare the variable for the group
 let pipe; //used to preload the pipe image
 let topPipe, bottomPipe;
-let box
+let box;
 
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
@@ -13,7 +13,7 @@ function preload(){ //load the images before the game starts
     flapMidImg = loadImage("assets/yellowbird-midflap.png");
     flapDownImg = loadImage("assets/yellowbird-downflap.png");
     flapUpImg = loadImage("assets/yellowbird-upflap.png");
-    pipe = loadImage("assets/pipe-green.png")
+    pipe = loadImage("assets/pipe-green.png");
 }
 
 function setup(){ //must have function
@@ -41,7 +41,7 @@ function setup(){ //must have function
     floor.img = base;
 
     box = new Sprite();
-
+    box.x
     pipeGroup = new Group();
 }
 
