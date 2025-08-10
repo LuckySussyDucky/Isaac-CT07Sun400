@@ -49,6 +49,6 @@ function draw(){ //must have function
     // if(mouse.presses("right")){
     //     bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "static");
     //     bird2.img = flapMidImg
-    }
+    // }
 
 }
