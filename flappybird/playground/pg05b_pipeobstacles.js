@@ -38,6 +38,13 @@ function setup(){ //must have function
     bird.bounciness = 0.5;
     world.gravity.y = 10
 
+box = new Sprite();
+    box.x = width / 2;
+    box.y = height / 2;
+    box.width = 200;
+    box.height = 200;
+    box.collider = "none";
+
     birdRed = new Sprite(box.x - 10, box.y, 25, 25);
     birdRed.img = flapMidImgR;
 
@@ -48,13 +55,6 @@ function setup(){ //must have function
     floor.height = 125;
     floor.collider = "static";
     floor.img = base;
-
-    box = new Sprite();
-    box.x = width / 2;
-    box.y = height / 2;
-    box.width = 200;
-    box.height = 200;
-    box.collider = "none";
 
     pipeGroup = new Group();
 }
