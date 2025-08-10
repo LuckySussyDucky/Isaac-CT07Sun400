@@ -50,7 +50,7 @@ function draw(){ //must have function
         bird.img = flapDownImg;
         bird.rotation = 30;
     }else{
-        
+        bird.img = flapMidImg
     }
 
     // if(mouse.presses("left")){
