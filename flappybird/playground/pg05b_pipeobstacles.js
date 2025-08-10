@@ -39,7 +39,7 @@ function setup(){ //must have function
     floor.collider = "static";
     floor.img = base;
 
-    pipeGroup = new pipeGroup();
+    pipeGroup = new Group();
 }
 
 function draw(){ //must have function
