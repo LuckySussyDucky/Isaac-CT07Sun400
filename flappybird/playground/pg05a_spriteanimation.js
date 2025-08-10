@@ -44,7 +44,7 @@ function draw(){ //must have function
     }
 
     if (bird.vel.y < -1){
-        
+        bird.img = flap
     }
 
     // if(mouse.presses("left")){
