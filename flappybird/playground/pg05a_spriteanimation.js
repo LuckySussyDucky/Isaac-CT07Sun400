@@ -7,7 +7,7 @@ function preload(){ //load the images before the game starts
     base = loadImage("assets/base.png");
     flapMidImg = loadImage("assets/yellowbird-midflap.png");
     flapDownImg = loadImage("assets/yellowbird-downflap.png");
-    flapUpImg = loadImage("assets/yellow")
+    flapUpImg = loadImage("assets/yellowbird")
 }
 
 function setup(){ //must have function
