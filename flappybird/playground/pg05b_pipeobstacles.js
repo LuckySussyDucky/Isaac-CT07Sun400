@@ -41,7 +41,8 @@ function setup(){ //must have function
     floor.img = base;
 
     box = new Sprite();
-    box.x = width / 2
+    box.x = width / 2;
+    box.y = height / 2;
     pipeGroup = new Group();
 }
 
