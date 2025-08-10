@@ -73,10 +73,10 @@ function draw(){ //must have function
     }
 
     if(mouse.presses("left")){
-        box.visible = True
+        box.visible = True;
     }
     if(mouse.presses("right")){
-        box.visible = False
+        box.visible = False;
     }
 
 }
