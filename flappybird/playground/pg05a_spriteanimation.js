@@ -1,5 +1,6 @@
 let background, base, flapMidImg;
 let bird, floor;
+let flapDownImg, flap
 let bird2;
 
 function preload(){ //load the images before the game starts 
