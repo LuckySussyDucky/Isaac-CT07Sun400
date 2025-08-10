@@ -84,5 +84,6 @@ function spawnPipePair(){
     topPipe.img = pipe;
     topPipe.rotation = 180;
 
-    pipeGroup.add
+    pipeGroup.add(topPipe);
+    pipe
 }
