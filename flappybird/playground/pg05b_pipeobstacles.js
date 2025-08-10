@@ -10,8 +10,8 @@ function preload(){ //load the images before the game starts
     background = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
     flapMidImg = loadImage("assets/yellowbird-midflap.png");
-    flapDownImg = loadImage("assets/redbird-downflap.png");
-    flapUpImg = loadImage("assets/redbird-upflap.png");
+    flapDownImg = loadImage("assets/yellowbird-downflap.png");
+    flapUpImg = loadImage("assets/yellowbird-upflap.png");
     pipe = loadImage("assets/pipe-green.png")
 }
 
