@@ -29,7 +29,7 @@ function setup(){ //must have function
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
-    bird.img = flapMidImg;
+    bird.img = flapMidImgY;
     
     //bird physics
     bird.collider = "dynamic";
@@ -39,7 +39,7 @@ function setup(){ //must have function
     world.gravity.y = 10
 
     birdRed = new Sprite(box.x - 10, box.y, 25, 25);
-    birdRed.img
+    birdRed.img = 
 
     floor = new Sprite();
     floor.x = 200;
