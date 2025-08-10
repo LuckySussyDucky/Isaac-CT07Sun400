@@ -43,8 +43,8 @@ function setup(){ //must have function
     box = new Sprite();
     box.x = width / 2;
     box.y = height / 2;
-    box.collider = "static";
-    
+    box.collider = "none";
+
     pipeGroup = new Group();
 }
 
