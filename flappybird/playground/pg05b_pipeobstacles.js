@@ -43,7 +43,7 @@ function setup(){ //must have function
     box.y = height / 2;
     box.width = 200;
     box.height = 200;
-    box.colour
+    box.colour = "white";
     box.collider = "none";
 
     birdRed = new Sprite(box.x - 25, box.y, 25, 25);
