@@ -39,7 +39,7 @@ function setup(){ //must have function
     world.gravity.y = 10
 
     birdRed = new Sprite(box.x - 10, box.y, 25, 25);
-    birdRed.img = 
+    birdRed.img = flapMidImgR;
 
     floor = new Sprite();
     floor.x = 200;
