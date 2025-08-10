@@ -1,6 +1,6 @@
 let background, base;
 let bird, birdRed, birdYellow, floor;
-let flapDownImgY, flapUpImgY, flapMidImg, flapDownImgB, flapUpImgB, flapMidImgB, flapDownImgR, flapUpImgR, flapMidImgR;
+let flapDownImg, flapUpImg, flapMidImg, flapDownImgB, flapUpImgB, flapMidImgB, flapDownImgR, flapUpImgR, flapMidImgR;
 // let bird2;
 let pipeGroup; //declare the variable for the group
 let pipe; //used to preload the pipe image
@@ -29,7 +29,7 @@ function setup(){ //must have function
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
-    bird.img = flapMidImgY;
+    bird.img = flapMidImg;
     
     //bird physics
     bird.collider = "dynamic";
