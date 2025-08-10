@@ -78,4 +78,7 @@ function draw(){ //must have function
 function spawnPipePair(){
     let gap = 50
     let midY = height / 2
+
+    //create top pipe
+    
 }
