@@ -1,6 +1,6 @@
 let background, base;
 let bird, floor;
-let flapDownImgY, flapUpImgY, flapMidImgY, flapDownImgB, flapUpImgB, flapMidImgB, flapDownImgR, flapUpImgR, flap
+let flapDownImgY, flapUpImgY, flapMidImgY, flapDownImgB, flapUpImgB, flapMidImgB, flapDownImgR, flapUpImgR, flapMidImgR;
 let bird2;
 let pipeGroup; //declare the variable for the group
 let pipe; //used to preload the pipe image
