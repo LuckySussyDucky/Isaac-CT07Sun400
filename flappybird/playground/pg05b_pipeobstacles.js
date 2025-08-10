@@ -61,7 +61,7 @@ function draw(){ //must have function
     }
 
     if(frameCount === 1){
-        spawn
+        spawnPipePair()
     }
 
     // if(mouse.presses("left")){
