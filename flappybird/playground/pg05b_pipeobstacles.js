@@ -80,5 +80,5 @@ function spawnPipePair(){
     let midY = height / 2
 
     //create top pipe
-    topPipe = new Sprite(400, midY - gap / 2 - 200, 52, )
+    topPipe = new Sprite(400, midY - gap / 2 - 200, 52, 320, "static");
 }
