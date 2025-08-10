@@ -92,5 +92,4 @@ function spawnPipePair(){
     bottomPipe.img = pipe;
 
     pipeGroup.add(bottomPipe);
-    
 }
