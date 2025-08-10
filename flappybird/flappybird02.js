@@ -1,11 +1,14 @@
 let background, base, flapMidImg;
 let bird, floor;
+let flapDownImg, flapUpImg;
 let bird2;
 
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
     flapMidImg = loadImage("assets/yellowbird-midflap.png");
+    flapDownImg = loadImage("assets/yellowbird-downflap.png");
+    flapUpImg = loadImage("assets/yellowbird-upflap.png")
 }
 
 function setup(){ //must have function
@@ -36,10 +39,22 @@ function setup(){ //must have function
 
 function draw(){ //must have function
     image(background, 0, 0, width, height);
-    if(kb.presses("space")){
+    if(kb.presses("space") || mouse.presses("left")){
         bird.vel.y = -5;
         bird.sleeping = false;
     }
+
+    if (bird.vel.y < -1){
+        bird.img = flapUpImg;
+        bird.rotation = -30;
+    }else if(bird.vel.y > 1){
+        bird.img = flapDownImg;
+        bird.rotation = 30;
+    }else{
+        bird.img = flapMidImg;
+        bird.rotation = 0;
+    }
+
     // if(mouse.presses("left")){
     //     bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "dyanmic");
     //     bird2.img = flapMidImg
