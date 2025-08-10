@@ -75,4 +75,7 @@ function draw(){ //must have function
 
 }
 
-function spawnPipePair()
+function spawnPipePair(){
+    let gap = 50
+    let
+}
