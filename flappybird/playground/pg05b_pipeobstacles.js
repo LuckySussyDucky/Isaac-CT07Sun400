@@ -1,7 +1,7 @@
 let background, base;
 let bird, floor;
 let flapDownImgY, flapUpImgY, flapMidImgY, flapDownImgB, flapUpImgB, flapMidImgB, flapDownImgR, flapUpImgR, flapMidImgR;
-let bird2;
+// let bird2;
 let pipeGroup; //declare the variable for the group
 let pipe; //used to preload the pipe image
 let topPipe, bottomPipe;
@@ -80,7 +80,7 @@ function draw(){ //must have function
 
     if(mouse.presses("left")){
         box.visible = true;
-        
+
     }
     if(mouse.presses("right")){
         box.visible = false;
