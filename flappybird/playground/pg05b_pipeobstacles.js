@@ -2,6 +2,7 @@ let background, base, flapMidImg;
 let bird, floor;
 let flapDownImg, flapUpImg;
 let bird2;
+le
 
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
