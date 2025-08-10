@@ -38,7 +38,7 @@ function setup(){ //must have function
     bird.bounciness = 0.5;
     world.gravity.y = 10
 
-    birdRed = new Sprite(box.x - 10, box.y, );
+    birdRed = new Sprite(box.x - 10, box.y, 25, 25);
 
     floor = new Sprite();
     floor.x = 200;
