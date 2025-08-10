@@ -7,7 +7,6 @@ function preload(){ //load the images before the game starts
     base = loadImage("assets/base.png");
     flapMidImg = loadImage("assets/yellowbird-midflap.png");
 
-}
 
 function setup(){ //must have function
     new Canvas(400, 600);
