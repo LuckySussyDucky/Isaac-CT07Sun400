@@ -61,7 +61,7 @@ function draw(){ //must have function
     }
 
     if(frameCount === 1){
-        
+        spawn
     }
 
     // if(mouse.presses("left")){
