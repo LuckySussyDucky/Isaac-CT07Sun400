@@ -39,7 +39,7 @@ function setup(){ //must have function
 
 function draw(){ //must have function
     image(background, 0, 0, width, height);
-    if(kb.presses("space")){
+    if(kb.presses("space") || mouse){
         bird.vel.y = -5;
         bird.sleeping = false;
     }
