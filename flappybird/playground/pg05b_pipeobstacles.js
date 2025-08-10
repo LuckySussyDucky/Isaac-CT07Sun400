@@ -14,9 +14,9 @@ function preload(){ //load the images before the game starts
     flapDownImgY = loadImage("assets/yellowbird-downflap.png");
     flapUpImgY = loadImage("assets/yellowbird-upflap.png");
     flapMidImgB = loadImage("assets/bluebird-midflap.png");
-    flapDownImgB = loadImage("assets/bellowbird-downflap.png");
-    flapUpImgB = loadImage("assets/yellowbird-upflap.png");
-    flapMidImgR = loadImage("assets/yellowbird-midflap.png");
+    flapDownImgB = loadImage("assets/bluebird-downflap.png");
+    flapUpImgB = loadImage("assets/bluebird-upflap.png");
+    flapMidImgR = loadImage("assets/redbird-midflap.png");
     flapDownImgR = loadImage("assets/yellowbird-downflap.png");
     flapUpImgR = loadImage("assets/yellowbird-upflap.png");
     pipe = loadImage("assets/pipe-green.png");
