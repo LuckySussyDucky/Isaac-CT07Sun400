@@ -80,6 +80,7 @@ function draw(){ //must have function
 
     if(mouse.presses("left")){
         box.visible = true;
+        
     }
     if(mouse.presses("right")){
         box.visible = false;
