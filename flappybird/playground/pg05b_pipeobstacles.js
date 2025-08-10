@@ -49,7 +49,7 @@ function setup(){ //must have function
     birdRed.img = flapMidImgR;
     birdRed.collider = "none";
 
-    birdBlue = new Sprite(box.x + 25, box.y, 25, 25);
+    birdBlue= new Sprite(box.x + 25, box.y, 25, 25);
     birdRed.img = flapMidImgB;
     birdRed.collider = "none";
 
