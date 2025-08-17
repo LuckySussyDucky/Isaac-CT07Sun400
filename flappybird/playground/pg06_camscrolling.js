@@ -64,6 +64,9 @@ function draw(){ //must have function
         spawnPipePair();
     }
 
+    bird.x += 3;
+    camera.x = bird.x;
+    floor.x = camera.x;
     // if(mouse.presses("left")){
     //     bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "dyanmic");
     //     bird2.img = flapMidImg
