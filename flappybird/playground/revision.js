@@ -1,1 +1,5 @@
-functions preload
+function setup(){
+
+}
+
+funt
