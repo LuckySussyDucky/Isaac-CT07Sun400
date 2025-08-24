@@ -162,5 +162,5 @@ function drawScore(x, y, score, digitWidth, digitHeight){
     scoreDigits.removeAll(); //clear old digits sprites
     let scoreStr = str(score);
     let totalWidth = scoreStr.length * digitWidth;
-    //state starting x coordinate
+    //state the starting x coordinates
 }
