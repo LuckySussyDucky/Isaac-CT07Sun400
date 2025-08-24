@@ -58,6 +58,8 @@ function setup(){ //must have function
     startScreenLabel.height = 50;
     startScreenLabel.collider = "none"
     startScreenLabel.img = startScreenImg
+
+    scoreDigits = newGrou
 }
 
 function draw(){ //must have function
