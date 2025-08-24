@@ -4,7 +4,7 @@ function setup(){
     new Canvas(800, 800);
     world.gravity.y = 10;
 
-    new Sprite 
+    floornew Sprite()
 }
 
 function draw(){
