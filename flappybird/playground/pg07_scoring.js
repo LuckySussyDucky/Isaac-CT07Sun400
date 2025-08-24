@@ -81,7 +81,6 @@ function draw(){ //must have function
     bird.x += 3;
     camera.x = bird.x;
     floor.x = camera.x;
-    
     bird.collider = "dynamic";
       if(kb.presses("space") || mouse.presses("left")){
         bird.vel.y = -5;
