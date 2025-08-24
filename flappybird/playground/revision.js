@@ -1,5 +1,5 @@
 function setup(){
-    new CanvasCaptureMediaStreamTrack()
+    new Canvas
 }
 
 function draw(){
