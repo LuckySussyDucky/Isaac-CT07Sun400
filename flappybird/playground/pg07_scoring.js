@@ -170,4 +170,6 @@ function drawScore(x, y, score, digitWidth, digitHeight){
       let digitSprite = new scoreDigits.Sprite(xPos, y, digitWidth, digitHeight);
       digitSprite.img = numberImages[digit];
     }
+
+    moveGroup
 }
