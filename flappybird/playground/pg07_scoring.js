@@ -164,5 +164,5 @@ function drawScore(x, y, score, digitWidth, digitHeight){
     let totalWidth = scoreStr.length * digitWidth;
     let startx = x - totalWidth / 2; //state the starting x coordinates
 
-    
+    for (let i = 0; i < scoreStr.length; i++)
 }
