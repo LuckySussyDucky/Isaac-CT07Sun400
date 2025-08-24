@@ -1,3 +1,4 @@
+
 let background, base;
 let bird, floor;
 let flapDownImg, flapUpImg, flapMidImg;
