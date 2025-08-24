@@ -2,4 +2,6 @@ function setup(){
 
 }
 
-funt
+function draw(){
+    
+}
