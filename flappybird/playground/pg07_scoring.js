@@ -159,5 +159,5 @@ function spawnPipePair(){
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight){
-    drawScore(x, y, score, digitWidth, digitHeight)
+    scoreDigits.remove
 }
