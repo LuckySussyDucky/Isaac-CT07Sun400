@@ -22,7 +22,7 @@ function preload(){ //load the images before the game starts
     gameoverImg = loadImage("assets/gameover.png")
     startScreenImg = loadImage("assets/message.png")
     for(let i = 0; i < 10; 1++){
-      
+      numberImages[1]
     }
 }
 
