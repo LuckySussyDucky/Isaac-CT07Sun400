@@ -162,7 +162,7 @@ function drawScore(x, y, score, digitWidth, digitHeight){
     scoreDigits.removeAll(); //clear old digits sprites
     let scoreStr = str(score);
     let totalWidth = scoreStr.length * digitWidth;
-    let startx = x - totalWidth / 2; //state the starting x coordinates
+    let startX = x - totalWidth / 2; //state the starting x coordinates
 
     for (let i = 0; i < scoreStr.length; i++){
       let digit = int(scoreStr[i]);
