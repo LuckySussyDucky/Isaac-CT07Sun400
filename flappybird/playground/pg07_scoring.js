@@ -61,7 +61,7 @@ function setup(){ //must have function
 
     scoreDigits = new Group();
     scoreDigits.collider = "none"
-    scoreDigits.layer = 1000
+    scoreDigits.layer = 1000;
 }
 
 function draw(){ //must have function
