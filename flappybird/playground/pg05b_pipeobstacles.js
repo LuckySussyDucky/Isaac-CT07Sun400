@@ -6,6 +6,8 @@ let pipeGroup; //declare the variable for the group
 let pipe; //used to preload the pipe image
 let topPipe, bottomPipe;
 let box;
+let menu;
+let counter = 2
 
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
@@ -63,6 +65,11 @@ function setup(){ //must have function
     floor.img = base;
 
     pipeGroup = new Group();
+
+    menu = new Sprite();
+    menu.x = 25;
+    menu.y = 25;
+    menu.collider = "static"
 }
 
 function draw(){ //must have function
@@ -87,12 +94,19 @@ function draw(){ //must have function
         spawnPipePair();
     }
 
-    if(mouse.presses("left")){
+    if(mouse.presses("left") && counter % 2 === 0){
         box.visible = true;
-
+        birdRed.visible = true;
+        birdBlue.visible = true;
+        counter = counter + 1
     }
-    if(mouse.presses("right")){
+    else if(mouse.presses("left") && counter % 2 !== 0){
         box.visible = false;
+        birdRed.visible = false;
+        birdBlue.visible = false;
+        counter = counter + 1
+    }else{
+        
     }
 
 }
