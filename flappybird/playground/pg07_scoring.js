@@ -156,6 +156,6 @@ function spawnPipePair(){
     pipeGroup.add(bottomPipe);
 }
 
-function drawScore(){
-  
+function drawScore(x, y, score, ){
+
 }
