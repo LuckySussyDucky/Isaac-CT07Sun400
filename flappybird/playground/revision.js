@@ -9,6 +9,6 @@ function setup(){
 
 function draw(){
     if (mouse.presses("left")){
-        ball = new Sprite(mouse);
+        ball = new Sprite(mouseX,mouseY,);
     }
 }
