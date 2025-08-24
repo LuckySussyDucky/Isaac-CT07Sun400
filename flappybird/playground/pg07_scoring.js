@@ -171,5 +171,6 @@ function drawScore(x, y, score, digitWidth, digitHeight){
       digitSprite.img = numberImages[digit];
     }
 
-    moveGroup(scoreDigits, camera.x)
+    moveGroup(scoreDigits, camera.x, 24);
+    
 }
