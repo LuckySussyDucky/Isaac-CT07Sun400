@@ -11,7 +11,7 @@ function setup(){
 function draw(){
 
     if (mouse.presses("left")){
-        ball = new Sprite(mouse.x,mouseY,30,'dynamic');
+        ball = new Sprite(mouse.x,mouse.y,30,'dynamic');
         ball.bounciness = 0.5;
     }
 }
