@@ -8,5 +8,7 @@ function setup(){
 }
 
 function draw(){
-
+    if (mouse.presses()){
+        
+    }
 }
