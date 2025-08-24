@@ -3,7 +3,7 @@ let floor;
 function setup(){
     new Canvas(800, 800);
     background(250);
-    
+    w
 
     floor = new Sprite(400, 800, 800, 30, "static");
 }
