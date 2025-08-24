@@ -5,7 +5,7 @@ function setup(){
     background(250);
     world.gravity.y = 10;
 
-    floor = new Sprite(800, 800, 800, 30, "static");
+    floor = new Sprite(400, 800, 800, 30, "static");
 }
 
 function draw(){
