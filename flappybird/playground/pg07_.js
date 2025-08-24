@@ -8,7 +8,7 @@ let topPipe, bottomPipe;
 let gameoverLabel, gameoverImg;
 let startScreenLabel, startScreenImg;
 let startGame = false;
-let
+let score = 0, number
 
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
