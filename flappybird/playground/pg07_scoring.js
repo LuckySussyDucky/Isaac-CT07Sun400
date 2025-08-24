@@ -21,6 +21,9 @@ function preload(){ //load the images before the game starts
     pipe = loadImage("assets/pipe-green.png")
     gameoverImg = loadImage("assets/gameover.png")
     startScreenImg = loadImage("assets/message.png")
+    for(let i = 0; i < 10; 1++){
+      
+    }
 }
 
 function setup(){ //must have function
