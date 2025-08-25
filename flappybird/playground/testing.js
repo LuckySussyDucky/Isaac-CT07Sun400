@@ -11,7 +11,13 @@ let startGame = false;
 let score = 0;
 let numberImages = [];
 let scoreDigits;
-let colour = "red"
+let colour = "";
+let counter;
+
+if(mouse.presses("right")){
+  counter += 1
+}
+if(counter )
 
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
