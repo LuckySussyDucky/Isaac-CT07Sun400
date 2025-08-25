@@ -94,20 +94,20 @@ function draw(){ //must have function
         spawnPipePair();
     }
 
-    if(mouse.presses("left") && counter % 2 === 0){
-        box.visible = true;
-        birdRed.visible = true;
-        birdBlue.visible = true;
-        counter = counter + 1
-    }
-    else if(mouse.presses("left") && counter % 2 !== 0){
-        box.visible = false;
-        birdRed.visible = false;
-        birdBlue.visible = false;
-        counter = counter + 1
-    }else{
+    // if(mouse.presses("left") && counter % 2 === 0){
+    //     box.visible = true;
+    //     birdRed.visible = true;
+    //     birdBlue.visible = true;
+    //     counter = counter + 1
+    // }
+    // else if(mouse.presses("left") && counter % 2 !== 0){
+    //     box.visible = false;
+    //     birdRed.visible = false;
+    //     birdBlue.visible = false;
+    //     counter = counter + 1
+    // }else{
         
-    }
+    // }
 
 }
 
