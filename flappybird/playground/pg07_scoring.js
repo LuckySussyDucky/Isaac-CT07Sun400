@@ -11,13 +11,14 @@ let startGame = false;
 let score = 0;
 let numberImages = [];
 let scoreDigits;
+le
 
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
     flapMidImg = loadImage("assets/" + colour + "bird-midflap.png");
     flapDownImg = loadImage("assets/" + colour + "bird-downflap.png");
-    flapUpImg = loadImage("assets/yellowbird-upflap.png");
+    flapUpImg = loadImage("assets/" + colour + "bird-upflap.png");
     pipe = loadImage("assets/pipe-green.png")
     gameoverImg = loadImage("assets/gameover.png")
     startScreenImg = loadImage("assets/message.png")
