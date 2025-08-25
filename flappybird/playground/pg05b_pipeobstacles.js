@@ -94,7 +94,7 @@ function draw(){ //must have function
         spawnPipePair();
     }
 
-    if(mouse.presses("left") && counter % 2 === 0 && mouse){
+    if(mouse.presses("left") && counter % 2 === 0){
         box.visible = true;
         birdRed.visible = true;
         birdBlue.visible = true;
