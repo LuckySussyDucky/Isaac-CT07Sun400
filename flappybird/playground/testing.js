@@ -14,6 +14,7 @@ let scoreDigits;
 let birdImages = [];
 let colour = "";
 let counter;
+let
 
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
