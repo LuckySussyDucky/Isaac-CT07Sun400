@@ -30,9 +30,9 @@ function preload(){ //load the images before the game starts
     for(let i = 0; i < 4; i++){
       if(i === 1){
         colour = "red";
-        flapMidImg = loadImage("assets/" + colour + "bird-midflap.png");
-        flapDownImg = loadImage("assets/" + colour + "bird-downflap.png");
-        flapUpImg = loadImage("assets/" + colour + "bird-upflap.png");
+        flapMidImgR = loadImage("assets/" + colour + "bird-midflap.png");
+        flapDownImgR = loadImage("assets/" + colour + "bird-downflap.png");
+        flapUpImgR = loadImage("assets/" + colour + "bird-upflap.png");
       }else if(i === 2){
         colour = "blue";
         flapMidImg = loadImage("assets/" + colour + "bird-midflap.png");
