@@ -87,6 +87,8 @@ function setup(){ //must have function
     scoreDigits = new Group();
     scoreDigits.collider = "none"
     scoreDigits.layer = 1000;
+
+    box
 }
 
 function draw(){ //must have function
