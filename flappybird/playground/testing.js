@@ -33,11 +33,12 @@ function preload(){ //load the images before the game starts
         flapMidImg = loadImage("assets/" + colour + "bird-midflap.png");
         flapDownImg = loadImage("assets/" + colour + "bird-downflap.png");
         flapUpImg = loadImage("assets/" + colour + "bird-upflap.png");
-      }else if(i === 2){}
+      }else if(i === 2){
         colour = "red"
         flapMidImg = loadImage("assets/" + colour + "bird-midflap.png");
         flapDownImg = loadImage("assets/" + colour + "bird-downflap.png");
         flapUpImg = loadImage("assets/" + colour + "bird-upflap.png");
+      }
     }
 }
 
