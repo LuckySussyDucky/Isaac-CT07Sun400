@@ -28,7 +28,8 @@ function preload(){ //load the images before the game starts
       numberImages[i] = loadImage("assets/" + i + ".png")
     }
     for(let i = 0; i < 4; i++){
-      birdImages
+      birdImages[i]
+      
     }
 }
 
