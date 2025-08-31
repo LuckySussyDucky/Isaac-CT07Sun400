@@ -40,9 +40,9 @@ function preload(){ //load the images before the game starts
         flapUpImgB = loadImage("assets/" + colour + "bird-upflap.png");
       }else if(i === 3){
         colour = "yellow";
-        flapMidImgY = loadImage("assets/" + colour + "bird-midflap.png");
-        flapDownImgY = loadImage("assets/" + colour + "bird-downflap.png");
-        flapUpImgY = loadImage("assets/" + colour + "bird-upflap.png");
+        flapMidImg = loadImage("assets/" + colour + "bird-midflap.png");
+        flapDownImg = loadImage("assets/" + colour + "bird-downflap.png");
+        flapUpImg = loadImage("assets/" + colour + "bird-upflap.png");
       }else{}
     }
 }
