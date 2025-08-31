@@ -88,7 +88,7 @@ function setup(){ //must have function
     scoreDigits.collider = "none"
     scoreDigits.layer = 1000;
 
-    box = new Sprite(200, 400, )
+    box = new Sprite(200, 400, 75, )
 }
 
 function draw(){ //must have function
