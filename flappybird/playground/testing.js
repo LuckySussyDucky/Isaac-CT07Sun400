@@ -14,11 +14,6 @@ let scoreDigits;
 let colour = "";
 let counter;
 
-if(mouse.presses("right")){
-  counter += 1
-}
-if(counter )
-
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
