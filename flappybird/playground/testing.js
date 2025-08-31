@@ -11,7 +11,7 @@ let startGame = false;
 let score = 0;
 let numberImages = [];
 let scoreDigits;
-let birdImages = [;]
+let birdImages = ["red", ""];
 let colour = "";
 let counter;
 
