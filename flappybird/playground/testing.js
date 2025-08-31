@@ -11,7 +11,7 @@ let startGame = false;
 let score = 0;
 let numberImages = [];
 let scoreDigits;
-let birdImages = ["red", "blue", "yellow"];
+let birdImages = [];
 let colour = "";
 let counter;
 
@@ -28,7 +28,7 @@ function preload(){ //load the images before the game starts
       numberImages[i] = loadImage("assets/" + i + ".png")
     }
     for(let i = 0; i < 4; i++){
-      
+      bird
     }
 }
 
