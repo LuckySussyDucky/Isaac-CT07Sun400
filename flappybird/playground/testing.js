@@ -102,8 +102,7 @@ function draw(){ //must have function
     }
 
     if(startGame || colour === "yellow"){
-
-    bird.x += 3;
+            bird.x += 3;
     camera.x = bird.x;
     floor.x = camera.x;
     bird.collider = "dynamic";
@@ -205,4 +204,5 @@ function moveGroup(group, targetX, spacing){
     for (let i = 0; i < group.length; i++){
       group[i].x = startX + i * spacing;
     }
+
 }
