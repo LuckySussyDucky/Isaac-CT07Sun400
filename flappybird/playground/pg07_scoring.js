@@ -113,7 +113,9 @@ function draw(){ //must have function
       }
     }
 
-    for(let pipe of pipeGroup){}
+    for(let pipe of pipeGroup){
+      let
+    }
 
     drawScore(width / 2, 20, score, 24, 36);
 
