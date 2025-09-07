@@ -41,9 +41,9 @@ function preload(){ //load the images before the game starts
         flapUpImgB = loadImage("assets/" + colour + "bird-upflap.png");
       }else if(i === 3){
         colour = "yellow";
-        flapMidImgY = loadImage("assets/" + colour + "bird-midflap.png");
-        flapDownImgY = loadImage("assets/" + colour + "bird-downflap.png");
-        flapUpImgY = loadImage("assets/" + colour + "bird-upflap.png");
+        flapMidImg = loadImage("assets/" + colour + "bird-midflap.png");
+        flapDownImg = loadImage("assets/" + colour + "bird-downflap.png");
+        flapUpImg = loadImage("assets/" + colour + "bird-upflap.png");
       }else{}
     }
 }
@@ -55,7 +55,7 @@ function setup(){ //must have function
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
-    bird.img = flapMidImgY;
+    bird.img = flapMidImg;
     
     //bird physics
     bird.collider = "static";
@@ -114,13 +114,13 @@ function draw(){ //must have function
     }
 
     if (bird.vel.y < -1){
-        bird.img = flapUpImgY;
+        bird.img = flapUpImg;
         bird.rotation = -30;
     }else if(bird.vel.y > 1){
-        bird.img = flapDownImgY;
+        bird.img = flapDownImg;
         bird.rotation = 30;
     }else{
-        bird.img = flapMidImgY;
+        bird.img = flapMidImg;
         bird.rotation = 0;
     }
 
