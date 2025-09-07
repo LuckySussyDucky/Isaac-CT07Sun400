@@ -13,7 +13,7 @@ let numberImages = [];
 let scoreDigits;
 let birdImages = [];
 let colour = "";
-let colour 
+let colourCode;
 let counter;
 let box;
 
