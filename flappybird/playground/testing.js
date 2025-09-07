@@ -101,7 +101,7 @@ function draw(){ //must have function
       bird.visible = true;
     }
 
-    if(startGame || colour ){
+    if(startGame || colour === "yellow"){
 
     bird.x += 3;
     camera.x = bird.x;
