@@ -89,7 +89,7 @@ function setup(){ //must have function
     box = new Sprite(200, 400, 75, 10, "static");
     if(mouse.presses("right"))
     text("Colour: " + colour, 25, 40);
-    text("", 25, 60);
+    text("Right click to change", 25, 60);
 }
 
 function draw(){ //must have function
