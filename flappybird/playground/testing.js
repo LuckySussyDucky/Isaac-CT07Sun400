@@ -87,7 +87,7 @@ function setup(){ //must have function
     scoreDigits.layer = 1000;
 
     box = new Sprite(200, 400, 75, 10, "static");
-    if(mouse.presses("left"))
+    if(mouse.presses("right"))
     text("Colour: " + colour, 25, 40);
     text("Mouse: (" + mouseX + ", " + mouseY + ")", 25, 60);
 }
