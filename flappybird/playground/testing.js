@@ -139,17 +139,17 @@ function draw(){ //must have function
 
       drawScore(width / 2, 20, score, 24, 36);
 
-    if(bird.collides(pipeGroup) || bird.collides(floor)){
-      gameoverLabel = new Sprite(); // x, y, width, height
-      gameoverLabel.x = width / 2;
-      gameoverLabel.y = height / 2;
-      gameoverLabel.width = 192;
-      gameoverLabel.height = 42;
-      gameoverLabel.img = gameoverImg;
-      gameoverLabel.layer = 100;
-      gameoverLabel.x = camera.x;
-      noLoop();
-    }
+      if(bird.collides(pipeGroup) || bird.collides(floor)){
+        gameoverLabel = new Sprite(); // x, y, width, height
+        gameoverLabel.x = width / 2;
+        gameoverLabel.y = height / 2;
+        gameoverLabel.width = 192;
+        gameoverLabel.height = 42;
+        gameoverLabel.img = gameoverImg;
+        gameoverLabel.layer = 100;
+        gameoverLabel.x = camera.x;
+        noLoop();
+}
 
     }
     // if(mouse.presses("left")){
