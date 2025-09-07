@@ -19,9 +19,6 @@ let box;
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
-    flapMidImg = loadImage("assets/" + colour + "bird-midflap.png");
-    flapDownImg = loadImage("assets/" + colour + "bird-downflap.png");
-    flapUpImg = loadImage("assets/" + colour + "bird-upflap.png");
     pipe = loadImage("assets/pipe-green.png")
     gameoverImg = loadImage("assets/gameover.png")
     startScreenImg = loadImage("assets/message.png")
@@ -41,7 +38,7 @@ function preload(){ //load the images before the game starts
         flapUpImgB = loadImage("assets/" + colour + "bird-upflap.png");
       }else if(i === 3){
         colour = "yellow";
-        flapMidImg = loadImage("assets/" + colour + "bird-midflap.png");
+        flapMidImgY = loadImage("assets/" + colour + "bird-midflap.png");
         flapDownImg = loadImage("assets/" + colour + "bird-downflap.png");
         flapUpImg = loadImage("assets/" + colour + "bird-upflap.png");
       }else{}
