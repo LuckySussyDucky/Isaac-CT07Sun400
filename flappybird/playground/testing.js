@@ -131,10 +131,10 @@ function draw(){ //must have function
 }
 
       // remove off screen pipes
-    for (let pipe of pipeGroup){
-      if (pipe.x < -50){
-        pipe.remove();
-      }
+      for (let pipe of pipeGroup){
+        if (pipe.x < -50){
+          pipe.remove();
+}
     }
 
     drawScore(width / 2, 20, score, 24, 36);
