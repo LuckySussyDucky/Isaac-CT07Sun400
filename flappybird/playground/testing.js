@@ -13,6 +13,7 @@ let numberImages = [];
 let scoreDigits;
 let birdImages = [];
 let colour = "";
+let colour 
 let counter;
 let box;
 
@@ -39,8 +40,8 @@ function preload(){ //load the images before the game starts
       }else if(i === 3){
         colour = "yellow";
         flapMidImgY = loadImage("assets/" + colour + "bird-midflap.png");
-        flapDownImg = loadImage("assets/" + colour + "bird-downflap.png");
-        flapUpImg = loadImage("assets/" + colour + "bird-upflap.png");
+        flapDownImgY = loadImage("assets/" + colour + "bird-downflap.png");
+        flapUpImgY = loadImage("assets/" + colour + "bird-upflap.png");
       }else{}
     }
 }
