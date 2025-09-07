@@ -12,14 +12,16 @@ let score = 0;
 let numberImages = [];
 let scoreDigits;
 let birdImages = [];
-let colour = "red";
-let colourCode = "";
+let colour = "";
 let counter;
 let box;
 
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
+    flapMidImg = loadImage("assets/" + colour + "bird-midflap.png");
+    flapDownImg = loadImage("assets/" + colour + "bird-downflap.png");
+    flapUpImg = loadImage("assets/" + colour + "bird-upflap.png");
     pipe = loadImage("assets/pipe-green.png")
     gameoverImg = loadImage("assets/gameover.png")
     startScreenImg = loadImage("assets/message.png")
@@ -39,26 +41,21 @@ function preload(){ //load the images before the game starts
         flapUpImgB = loadImage("assets/" + colour + "bird-upflap.png");
       }else if(i === 3){
         colour = "yellow";
-        flapMidImgY = loadImage("assets/" + colour + "bird-midflap.png");
-        flapDownImgY = loadImage("assets/" + colour + "bird-downflap.png");
-        flapUpImgY = loadImage("assets/" + colour + "bird-upflap.png");
+        flapMidImg = loadImage("assets/" + colour + "bird-midflap.png");
+        flapDownImg = loadImage("assets/" + colour + "bird-downflap.png");
+        flapUpImg = loadImage("assets/" + colour + "bird-upflap.png");
       }else{}
     }
 }
 
 function setup(){ //must have function
-    box = new Sprite(200, 400, 75, 10, "static");
-      if(mouse.presses("right"))
-      text("Colour: " + colour, 25, 40);
-      text("Right click to change colour", 25, 60);
-
     new Canvas(400, 600);
     bird = new Sprite();
     bird.x = width / 2;
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
-    bird.img = flapMidImgY;
+    bird.img = flapMidImg;
     
     //bird physics
     bird.collider = "static";
@@ -90,6 +87,10 @@ function setup(){ //must have function
     scoreDigits = new Group();
     scoreDigits.collider = "none"
     scoreDigits.layer = 1000;
+
+    box = new Sprite(200, 400, 75, 10, "static");
+    text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 25, 40);
+    text("Mouse: (" + mouseX + ", " + mouseY + ")", 25, 60);
 }
 
 function draw(){ //must have function
@@ -101,107 +102,58 @@ function draw(){ //must have function
       bird.visible = true;
     }
 
-    if(startGame || colour === "yellow"){
-      bird.x += 3;
-      camera.x = bird.x;
-      floor.x = camera.x;
-      bird.collider = "dynamic";
+    if(startGame){
+
+    bird.x += 3;
+    camera.x = bird.x;
+    floor.x = camera.x;
+    bird.collider = "dynamic";
       if(kb.presses("space") || mouse.presses("left")){
         bird.vel.y = -5;
         bird.sleeping = false;
-}
+    }
 
-      if (bird.vel.y < -1){
-        bird.img = flapUpImgY;
+    if (bird.vel.y < -1){
+        bird.img = flapUpImg;
         bird.rotation = -30;
-      }else if(bird.vel.y > 1){
-        bird.img = flapDownImgY;
+    }else if(bird.vel.y > 1){
+        bird.img = flapDownImg;
         bird.rotation = 30;
-      }else{
-        bird.img = flapMidImgY;
+    }else{
+        bird.img = flapMidImg;
         bird.rotation = 0;
-}
+    }
 
-      if(frameCount === 1){
+    if(frameCount === 1){
         spawnPipePair();
-}
+    }
 
-      if (frameCount % 90 === 0){
+    if (frameCount % 90 === 0){
       spawnPipePair();
-}
+    }
 
-      // remove off screen pipes
-      for (let pipe of pipeGroup){
-        if (pipe.x < -50){
-          pipe.remove();
-  }
-}
+    // remove off screen pipes
+    for (let pipe of pipeGroup){
+      if (pipe.x < -50){
+        pipe.remove();
+      }
+    }
 
-      drawScore(width / 2, 20, score, 24, 36);
+    drawScore(width / 2, 20, score, 24, 36);
 
-      if(bird.collides(pipeGroup) || bird.collides(floor)){
-        gameoverLabel = new Sprite(); // x, y, width, height
-        gameoverLabel.x = width / 2;
-        gameoverLabel.y = height / 2;
-        gameoverLabel.width = 192;
-        gameoverLabel.height = 42;
-        gameoverLabel.img = gameoverImg;
-        gameoverLabel.layer = 100;
-        gameoverLabel.x = camera.x;
-        noLoop();
-}
+    if(bird.collides(pipeGroup) || bird.collides(floor)){
+      gameoverLabel = new Sprite(); // x, y, width, height
+      gameoverLabel.x = width / 2;
+      gameoverLabel.y = height / 2;
+      gameoverLabel.width = 192;
+      gameoverLabel.height = 42;
+      gameoverLabel.img = gameoverImg;
+      gameoverLabel.layer = 100;
+      gameoverLabel.x = camera.x;
+      noLoop();
+    }
 
-}else if(startGame || colour === "red"){
-        bird.x += 3;
-        camera.x = bird.x;
-        floor.x = camera.x;
-        bird.collider = "dynamic";
-        if(kb.presses("space") || mouse.presses("left")){
-          bird.vel.y = -5;
-          bird.sleeping = false;
-}
-
-        if (bird.vel.y < -1){
-          bird.img = flapUpImgR;
-          bird.rotation = -30;
-        }else if(bird.vel.y > 1){
-            bird.img = flapDownImgR;
-            bird.rotation = 30;
-        }else{
-            bird.img = flapMidImgR;
-            bird.rotation = 0;
-        }
-
-        if(frameCount === 1){
-          spawnPipePair();
-        }
-
-       if (frameCount % 90 === 0){
-          spawnPipePair();
-        }
-
-        // remove off screen pipes
-        for (let pipe of pipeGroup){
-          if (pipe.x < -50){
-            pipe.remove();
-          }
-        }
-
-        drawScore(width / 2, 20, score, 24, 36);
-
-        if(bird.collides(pipeGroup) || bird.collides(floor)){
-          gameoverLabel = new Sprite(); // x, y, width, height
-          gameoverLabel.x = width / 2;
-          gameoverLabel.y = height / 2;
-          gameoverLabel.width = 192;
-          gameoverLabel.height = 42;
-          gameoverLabel.img = gameoverImg;
-          gameoverLabel.layer = 100;
-          gameoverLabel.x = camera.x;
-          noLoop();
-        }
-
-}
+    }
     // if(mouse.presses("left")){
     //     bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "dyanmic");
     //     bird2.img = flapMidImg
