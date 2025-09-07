@@ -58,7 +58,7 @@ function setup(){ //must have function
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
-    bird.img = flapMidImgY;
+    bird.img = flapMidImY;
     
     //bird physics
     bird.collider = "static";
