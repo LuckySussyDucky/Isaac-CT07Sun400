@@ -151,7 +151,57 @@ function draw(){ //must have function
         noLoop();
 }
 
-}else if(colour ){}
+}else if(colour === "red"){
+        bird.x += 3;
+        camera.x = bird.x;
+        floor.x = camera.x;
+        bird.collider = "dynamic";
+        if(kb.presses("space") || mouse.presses("left")){
+          bird.vel.y = -5;
+          bird.sleeping = false;
+}
+
+        if (bird.vel.y < -1){
+          bird.img = flapUpImgY;
+          bird.rotation = -30;
+        }else if(bird.vel.y > 1){
+            bird.img = flapDownImgY;
+            bird.rotation = 30;
+        }else{
+            bird.img = flapMidImgY;
+            bird.rotation = 0;
+        }
+
+        if(frameCount === 1){
+          spawnPipePair();
+        }
+
+       if (frameCount % 90 === 0){
+          spawnPipePair();
+        }
+
+        // remove off screen pipes
+        for (let pipe of pipeGroup){
+          if (pipe.x < -50){
+            pipe.remove();
+          }
+        }
+
+        drawScore(width / 2, 20, score, 24, 36);
+
+        if(bird.collides(pipeGroup) || bird.collides(floor)){
+          gameoverLabel = new Sprite(); // x, y, width, height
+          gameoverLabel.x = width / 2;
+          gameoverLabel.y = height / 2;
+          gameoverLabel.width = 192;
+          gameoverLabel.height = 42;
+          gameoverLabel.img = gameoverImg;
+          gameoverLabel.layer = 100;
+          gameoverLabel.x = camera.x;
+          noLoop();
+        }
+
+}
     // if(mouse.presses("left")){
     //     bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "dyanmic");
     //     bird2.img = flapMidImg
@@ -162,6 +212,57 @@ function draw(){ //must have function
     // }
 
 }
+
+function spawnPipePair(){
+    let gap = 50;
+    let midY = random(250, height - 250);
+
+    //create top pipe
+    topPipe = new Sprite(400 + bird.x, midY - gap / 2 - 200, 52, 320, "static");
+    topPipe.img = pipe;
+    topPipe.rotation = 180;
+
+    pipeGroup.add(topPipe);
+    pipeGroup.layer = 0;
+
+    //create bottom pipe
+    bottomPipe = new Sprite(400 + bird.x, midY + gap / 2 + 200, 52, 320, "static");
+    bottomPipe.img = pipe;
+
+    pipeGroup.add(bottomPipe);
+}
+
+function drawScore(x, y, score, digitWidth, digitHeight){
+    scoreDigits.removeAll(); //clear old digits sprites
+    let scoreStr = str(score);
+    let totalWidth = scoreStr.length * digitWidth;
+    let startX = x - totalWidth / 2; //state the starting x coordinates
+
+    for (let i = 0; i < scoreStr.length; i++){
+      let digit = int(scoreStr[i]);
+      let xPos = startX + i * digitWidth;
+      let digitSprite = new scoreDigits.Sprite(xPos, y, digitWidth, digitHeight);
+      digitSprite.img = numberImages[digit];
+    }
+
+    moveGroup(scoreDigits, camera.x, 24);
+}
+
+function moveGroup(group, targetX, spacing){
+    let totalWidth = (group.length - 1) * spacing;
+    let startX = (targetX - totalWidth / 2);
+    for (let i = 0; i < group.length; i++){
+      group[i].x = startX + i * spacing;
+    }
+}
+    // if(mouse.presses("left")){
+    //     bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "dyanmic");
+    //     bird2.img = flapMidImg
+    // }
+    // if(mouse.presses("right")){
+    //     bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "static");
+    //     bird2.img = flapMidImg
+    // }
 
 function spawnPipePair(){
     let gap = 50;
