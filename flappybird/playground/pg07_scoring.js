@@ -114,7 +114,7 @@ function draw(){ //must have function
     }
 
     for(let pipe of pipeGroup){
-      let piperightEdge = pipe.x
+      let piperightEdge = pipe.x + pipe.w / 2;
     }
 
     drawScore(width / 2, 20, score, 24, 36);
