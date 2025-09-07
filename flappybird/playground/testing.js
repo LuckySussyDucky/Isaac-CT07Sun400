@@ -47,8 +47,10 @@ function preload(){ //load the images before the game starts
 }
 
 function setup(){ //must have function
-
-  
+    box = new Sprite(200, 400, 75, 10, "static");
+      if(mouse.presses("right"))
+      text("Colour: " + colour, 25, 40);
+      text("Right click to change colour", 25, 60);
     new Canvas(400, 600);
     bird = new Sprite();
     bird.x = width / 2;
