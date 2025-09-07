@@ -47,6 +47,8 @@ function preload(){ //load the images before the game starts
 }
 
 function setup(){ //must have function
+
+  
     new Canvas(400, 600);
     bird = new Sprite();
     bird.x = width / 2;
@@ -85,11 +87,6 @@ function setup(){ //must have function
     scoreDigits = new Group();
     scoreDigits.collider = "none"
     scoreDigits.layer = 1000;
-
-    box = new Sprite(200, 400, 75, 10, "static");
-    if(mouse.presses("right"))
-    text("Colour: " + colour, 25, 40);
-    text("Right click to change colour", 25, 60);
 }
 
 function draw(){ //must have function
