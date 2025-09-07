@@ -51,6 +51,7 @@ function setup(){ //must have function
       if(mouse.presses("right"))
       text("Colour: " + colour, 25, 40);
       text("Right click to change colour", 25, 60);
+      
     new Canvas(400, 600);
     bird = new Sprite();
     bird.x = width / 2;
