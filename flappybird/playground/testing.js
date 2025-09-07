@@ -104,12 +104,12 @@ function draw(){ //must have function
     if(startGame || colour === "yellow"){
       bird.x += 3;
       camera.x = bird.x;
-    floor.x = camera.x;
-    bird.collider = "dynamic";
+      floor.x = camera.x;
+      bird.collider = "dynamic";
       if(kb.presses("space") || mouse.presses("left")){
         bird.vel.y = -5;
         bird.sleeping = false;
-    }
+}
 
     if (bird.vel.y < -1){
         bird.img = flapUpImgY;
