@@ -122,15 +122,15 @@ function draw(){ //must have function
         bird.rotation = 0;
 }
 
-    if(frameCount === 1){
+      if(frameCount === 1){
         spawnPipePair();
-    }
+}
 
-    if (frameCount % 90 === 0){
+      if (frameCount % 90 === 0){
       spawnPipePair();
-    }
+}
 
-    // remove off screen pipes
+      // remove off screen pipes
     for (let pipe of pipeGroup){
       if (pipe.x < -50){
         pipe.remove();
