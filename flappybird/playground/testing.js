@@ -151,7 +151,7 @@ function draw(){ //must have function
         noLoop();
 }
 
-    }
+}
     // if(mouse.presses("left")){
     //     bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "dyanmic");
     //     bird2.img = flapMidImg
