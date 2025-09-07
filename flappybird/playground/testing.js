@@ -151,7 +151,7 @@ function draw(){ //must have function
         noLoop();
 }
 
-}else if(colour === "red"){
+}else if(startGame ===colour === "red"){
         bird.x += 3;
         camera.x = bird.x;
         floor.x = camera.x;
