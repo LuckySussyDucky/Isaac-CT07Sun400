@@ -134,10 +134,10 @@ function draw(){ //must have function
       for (let pipe of pipeGroup){
         if (pipe.x < -50){
           pipe.remove();
+  }
 }
-    }
 
-    drawScore(width / 2, 20, score, 24, 36);
+      drawScore(width / 2, 20, score, 24, 36);
 
     if(bird.collides(pipeGroup) || bird.collides(floor)){
       gameoverLabel = new Sprite(); // x, y, width, height
