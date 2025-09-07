@@ -89,8 +89,6 @@ function setup(){ //must have function
     scoreDigits.layer = 1000;
 
     box = new Sprite(200, 400, 75, 10, "static");
-    text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 25, 40);
-    text("Mouse: (" + mouseX + ", " + mouseY + ")", 25, 60);
 }
 
 function draw(){ //must have function
