@@ -111,16 +111,16 @@ function draw(){ //must have function
         bird.sleeping = false;
 }
 
-    if (bird.vel.y < -1){
+      if (bird.vel.y < -1){
         bird.img = flapUpImgY;
         bird.rotation = -30;
-    }else if(bird.vel.y > 1){
+      }else if(bird.vel.y > 1){
         bird.img = flapDownImgY;
         bird.rotation = 30;
-    }else{
+      }else{
         bird.img = flapMidImgY;
         bird.rotation = 0;
-    }
+}
 
     if(frameCount === 1){
         spawnPipePair();
