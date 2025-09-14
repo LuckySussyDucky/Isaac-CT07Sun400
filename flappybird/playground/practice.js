@@ -24,9 +24,7 @@ function draw(){
     // while(i === 1){
     //     do a action
     // }
-    for(let i; i === 0; i++){
-        console.log("")
-    }
+    base = loadImage("assets/base.png");
     if (mouse.presses("left")){
         circle = new Sprite(mouse.x, mouse.y, 25, "dynamic");
         circle.bounciness = 0.5;
