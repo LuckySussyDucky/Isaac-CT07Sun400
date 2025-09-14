@@ -15,12 +15,12 @@ function setup(){
 }
 
 function draw(){
-    while(i === 1){
-        //do a action
-    }
-    for(let i; i === 1; i++){
-        //do a action
-    }
+    // while(i === 1){
+    //     do a action
+    // }
+    // for(let i; i === 1; i++){
+    //     do a action
+    // }
     if (mouse.presses("left")){
         circle = new Sprite(100, 350, 25, "dynamic");
         circle.bounciness = 0.5;
