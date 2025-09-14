@@ -13,6 +13,7 @@ function setup(){
 
     pipe = new Group();
 }
+
 function draw(){
     while(i === 1);
         //do a action
