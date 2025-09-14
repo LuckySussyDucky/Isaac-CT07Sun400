@@ -22,7 +22,8 @@ function draw(){
         //do a action
     }
     if (mouse.presses("left")){
-
+        circle = new Sprite(100, 350, 25, "dynamic");
+        circle.bounciness(1)
     }
         
 }
