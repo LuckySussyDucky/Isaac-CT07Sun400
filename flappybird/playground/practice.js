@@ -27,5 +27,6 @@ function draw(){
         circle.bounciness = 0.5;
         circle.colour = "red"
     }
+    square = new Sprite(mosue.x, mouse.y, 25, 25, "static");
         
 }
