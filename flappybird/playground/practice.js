@@ -25,18 +25,19 @@ function draw(){
     // while(i === 1){
     //     do a action
     // }
-    for(let i = 0; i < 11; i + 1){
-        console.log(i);
-    }
-    for(let i = 10; i > 0; i - 1){
-        console.log(i);
-    }
-    for(let i = 0; i < 11; i + 2){
-        console.log(i);
-    }
-    for(let i = 1; i < 11; i + 2){
-        console.log(i);
-    }
+
+    // for(let i = 0; i < 11; i + 1){
+    //     console.log(i);
+    // }
+    // for(let i = 10; i > 0; i - 1){
+    //     console.log(i);
+    // }
+    // for(let i = 0; i < 11; i + 2){
+    //     console.log(i);
+    // }
+    // for(let i = 1; i < 11; i + 2){
+    //     console.log(i);
+    // }
     if (mouse.presses("left")){
         circle = new Sprite(mouse.x, mouse.y, 25, "dynamic");
         circle.bounciness = 0.5;
