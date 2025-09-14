@@ -47,7 +47,8 @@ function draw(){
         circle.bounciness = 0.5;
         circle.colour = "red"
     }
-        
+    squareM.x = mouse.x;
+    squareM.y = mouse.y;
 }
 
 if(age < 90 && age > 49){
