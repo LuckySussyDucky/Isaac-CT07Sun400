@@ -126,6 +126,7 @@ function draw(){ //must have function
       if(pipe.passed == false && piperightEdge < birdleftEdge){
         pipe.passed = true;
         score++;
+        
       }
     }
 
