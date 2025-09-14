@@ -24,7 +24,12 @@ function draw(){
     // while(i === 1){
     //     do a action
     // }
-    base = loadImage("assets/base.png");
+    for(let i; i === 0; i++){
+        console.log(i)
+    }
+    for(let i; i === 10; i++){
+        console.log(i)
+    }
     if (mouse.presses("left")){
         circle = new Sprite(mouse.x, mouse.y, 25, "dynamic");
         circle.bounciness = 0.5;
