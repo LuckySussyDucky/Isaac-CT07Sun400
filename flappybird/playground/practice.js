@@ -26,13 +26,13 @@ function draw(){
     //     do a action
     // }
     for(let i; i === 0; i + 1){
-        console.log(i)
+        console.log(i);
     }
     for(let i; i === 10; i - 1){
-        console.log(i)
+        console.log(i);
     }
     for(let i; i === 0; i + 2){
-        console.log(i)
+        console.log(i);
     }
     if (mouse.presses("left")){
         circle = new Sprite(mouse.x, mouse.y, 25, "dynamic");
