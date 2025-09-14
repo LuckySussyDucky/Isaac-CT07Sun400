@@ -10,7 +10,7 @@ function setup(){
 
     circle = new Sprite(100, 350, 25, "dynamic");
     circle.bounciness = 0.5;
-    c
+    circle.colour = "red"
 
     pipe = new Group();
 }
