@@ -46,6 +46,6 @@ function draw(){
         
 }
 
-if(age === 90){
-    console.log()
+if(age > 90){
+    console.log("You are so old")
 }
