@@ -28,10 +28,10 @@ function draw(){
     for(let i = 0; i === 0; i + 1){
         console.log(i);
     }
-    for(let i; i === 10; i - 1){
+    for(let i = 10; i === 10; i - 1){
         console.log(i);
     }
-    for(let i; i === 0; i + 2){
+    for(let i; i ; i + 2){
         console.log(i);
     }
     if (mouse.presses("left")){
