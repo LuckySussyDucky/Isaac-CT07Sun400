@@ -7,7 +7,9 @@ function setup(){
     world.gravity.y = 1
 
     square = new Sprite(800 / 2, 400 / 2, 25, 25, "static");
+
     circle = new Sprite(100, 350, 25, "dynamic");
+    
     pipe = new Group();
 }
 function draw(){
@@ -16,7 +18,7 @@ function draw(){
     for(let i; i === 1; i++);
         //do a action
     if (mouse.presses("left")){
-        
+
     }
         
 }
