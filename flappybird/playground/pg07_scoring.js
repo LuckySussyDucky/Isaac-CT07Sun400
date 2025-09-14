@@ -160,7 +160,7 @@ function draw(){ //must have function
         startsMessageLabel.x = bird.x;
         startsMessageLabel.y = height / 2 - 50;
         loop();
-      }, 3000)    }
+      }, 3000);    }
     // if(mouse.presses("left")){
     //     bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "dyanmic");
     //     bird2.img = flapMidImg
