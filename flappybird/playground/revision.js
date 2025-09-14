@@ -4,7 +4,7 @@ function setup(){
     background(250);
     world.gravity.y = 10;
 
-    square = new Sprite(800 / 2, 800, 800);
+    square = new Sprite(800 / 2, 400 / 2, 800);
 }
 
 function draw(){
