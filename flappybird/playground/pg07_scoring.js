@@ -80,7 +80,7 @@ function draw(){ //must have function
       startGame = true;
       startScreenLabel.visible = false;
       bird.visible = true;
-            flapSound.play();
+      flapSound.play();
     }
 
     if(startGame){
