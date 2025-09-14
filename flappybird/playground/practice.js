@@ -10,6 +10,7 @@ function setup(){
 
     circle = new Sprite(100, 350, 25, "dynamic");
     circle.bounciness = 0.5;
+    c
 
     pipe = new Group();
 }
@@ -23,7 +24,7 @@ function draw(){
     // }
     if (mouse.presses("left")){
         circle = new Sprite(mouse.x, mouse.y, 25, "dynamic");
-        circle.bounciness = 0.5;]
+        circle.bounciness = 0.5;
     }
         
 }
