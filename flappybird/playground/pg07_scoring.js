@@ -13,7 +13,7 @@ let numberImages = [];
 let scoreDigits;
 let flapSound;
 let pointSound;
-let fail
+let failSound;
 
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
