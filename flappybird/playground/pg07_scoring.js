@@ -27,8 +27,8 @@ function preload(){ //load the images before the game starts
     for(let i = 0; i < 10; i++){
       numberImages[i] = loadImage("assets/" + i + ".png")
     }
-    flapSound = createAudio("assets/sfx_wing.wav");
-    pointSound = createAudio("assets/sfx_point.wav");
+    flapSound = createAudio("assets/sfx_wing.mo3");
+    pointSound = createAudio("assets/sfx_point");
     failSound = createAudio("assets/sfx_die.wav");
 }
 
