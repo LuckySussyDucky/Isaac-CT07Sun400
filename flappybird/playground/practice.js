@@ -1,6 +1,7 @@
 let square;
 let circle;
 let pipe;
+let pipeGroup;
 function setup(){
     new Canvas(800, 400);
     background(250);
