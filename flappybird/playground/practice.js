@@ -15,7 +15,7 @@ function setup(){
     square = new Sprite(800 / 2, 400 / 2, 25, 25, "static");
 
     square = new Sprite(mouse.x, mouse.y, 25, 25, "static");
-    square.colour = "blue"
+    square.colour = "skyblue"
 
     circle = new Sprite(100, 350, 25, "dynamic");
     circle.bounciness = 0.5;
