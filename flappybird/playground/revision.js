@@ -1,7 +1,7 @@
 let ball;
 let floor;
 function setup(){
-    new Canvas(800, 800);
+    new Canvas(800, 400);
     background(250);
     world.gravity.y = 10;
 
