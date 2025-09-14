@@ -1,6 +1,6 @@
 let square;
+let squareM
 let circle;
-
 let pipe;
 let image;
 let age;
