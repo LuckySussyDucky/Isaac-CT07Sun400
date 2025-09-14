@@ -47,5 +47,9 @@ function draw(){
 }
 
 if(age < 90 && age > 49){
-    console.log("You are so old")
-}elif(age < 49 && age > 18)
+    console.log("You are so old");
+}else if(age < 49 && age > 18){
+    console.log("You are an adult");
+}else{
+    
+}
