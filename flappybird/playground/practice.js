@@ -34,7 +34,7 @@ function draw(){
     for(let i = 0; i < 11; i + 2){
         console.log(i);
     }
-    for(let i = 0; i < 11; i + 2){
+    for(let i = 1; i < 11; i + 2){
         console.log(i);
     }
     if (mouse.presses("left")){
