@@ -144,7 +144,7 @@ function draw(){ //must have function
       failSound.play();
       noLoop();
     }
-      setTimeout(() => {
+    setTimeout(() => {
         score = 0;
         startsGame = false;
 
