@@ -141,6 +141,7 @@ function draw(){ //must have function
       gameoverLabel.img = gameoverImg;
       gameoverLabel.layer = 100;
       gameoverLabel.x = camera.x;
+      failSound.play();
       noLoop();
     }
 
