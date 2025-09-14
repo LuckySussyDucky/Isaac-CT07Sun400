@@ -27,6 +27,7 @@ function preload(){ //load the images before the game starts
     for(let i = 0; i < 10; i++){
       numberImages[i] = loadImage("assets/" + i + ".png")
     }
+    
 }
 
 function setup(){ //must have function
