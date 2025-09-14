@@ -35,3 +35,7 @@ function draw(){
     square = new Sprite(mouse.x, mouse.y, 25, 25, "static");
         
 }
+
+if(age === 90){
+    
+}
