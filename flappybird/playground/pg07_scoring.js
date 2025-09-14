@@ -145,22 +145,22 @@ function draw(){ //must have function
       noLoop();
     }
     setTimeout(() => {
-        score = 0;
-        startsGame = false;
+      score = 0;
+      startsGame = false;
 
-        pipes.removeAll();
-        bird.vel.y = 0;
-        bird.vel.x = 0;
-        bird.rotation = 0;
-        bird.collider
-        bird.y = 200;
+      pipes.removeAll();
+      bird.vel.y = 0;
+      bird.vel.x = 0;
+      bird.rotation = 0;
+      bird.collider
+      bird.y = 200;
 
-        gameoverLabel.remove();
-        startsMessageLabel.visible = true;
-        startsMessageLabel.x = bird.x;
-        startsMessageLabel.y = height / 2 - 50;
-        loop();
-      }, 3000);    }
+      gameoverLabel.remove();
+      startsMessageLabel.visible = true;
+      startsMessageLabel.x = bird.x;
+      startsMessageLabel.y = height / 2 - 50;
+      loop();
+    }, 3000);    }
     // if(mouse.presses("left")){
     //     bird2 = new Sprite(mouse.x, mouse.y, 30, 30, "dyanmic");
     //     bird2.img = flapMidImg
