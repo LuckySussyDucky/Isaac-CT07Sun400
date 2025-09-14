@@ -37,5 +37,5 @@ function draw(){
 }
 
 if(age === 90){
-    
+    console.log
 }
