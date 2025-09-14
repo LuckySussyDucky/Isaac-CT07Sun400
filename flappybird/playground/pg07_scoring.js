@@ -11,6 +11,7 @@ let startGame = false;
 let score = 0;
 let numberImages = [];
 let scoreDigits;
+let flap
 
 function preload(){ //load the images before the game starts 
     background = loadImage("assets/background-day.png");
