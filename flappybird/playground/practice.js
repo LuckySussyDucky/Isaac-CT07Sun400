@@ -25,7 +25,7 @@ function draw(){
     //     do a action
     // }
     for(let i; i === 0; i++){
-        do a action
+        console.log("")
     }
     if (mouse.presses("left")){
         circle = new Sprite(mouse.x, mouse.y, 25, "dynamic");
