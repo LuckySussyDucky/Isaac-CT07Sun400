@@ -2,6 +2,7 @@ let square;
 let circle;
 let pipe;
 let image;
+let age;
 
 function preload(){
     image = loadImage("assets/base.png");
