@@ -25,6 +25,7 @@ function draw(){
     if (mouse.presses("left")){
         circle = new Sprite(mouse.x, mouse.y, 25, "dynamic");
         circle.bounciness = 0.5;
+        circle.colour = "red"
     }
         
 }
