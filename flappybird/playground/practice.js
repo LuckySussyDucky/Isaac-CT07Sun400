@@ -12,5 +12,6 @@ function setup(){
     pipe
 }
 function draw(){
+    while(i === 1)
     for(let i; i === 1; i++);
 }
