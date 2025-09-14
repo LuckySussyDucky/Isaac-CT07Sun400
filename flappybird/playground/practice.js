@@ -23,7 +23,7 @@ function draw(){
     }
     if (mouse.presses("left")){
         circle = new Sprite(100, 350, 25, "dynamic");
-        circle.bounciness(1)
+        circle.bounciness = 0.5;
     }
         
 }
