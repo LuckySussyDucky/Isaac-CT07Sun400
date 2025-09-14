@@ -19,7 +19,7 @@ function setup(){
     squareM.color = "blue"
     squareM.w = 25;
     squareM.h = 25;
-    squareM.collider +
+    squareM.collider = "static";
 
     circle = new Sprite(100, 350, 25, "dynamic");
     circle.bounciness = 0.5;
