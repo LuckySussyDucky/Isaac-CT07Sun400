@@ -51,5 +51,5 @@ if(age < 90 && age > 49){
 }else if(age < 49 && age > 18){
     console.log("You are an adult");
 }else{
-    
+    console.log("")
 }
