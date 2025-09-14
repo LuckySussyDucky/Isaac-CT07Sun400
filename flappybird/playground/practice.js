@@ -34,6 +34,9 @@ function draw(){
     for(let i = 0; i < 11; i + 2){
         console.log(i);
     }
+    for(let i = 0; i < 11; i + 2){
+        console.log(i);
+    }
     if (mouse.presses("left")){
         circle = new Sprite(mouse.x, mouse.y, 25, "dynamic");
         circle.bounciness = 0.5;
