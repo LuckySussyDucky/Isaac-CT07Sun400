@@ -1,10 +1,10 @@
 let square;
 let circle;
 let pipe;
-
+let image;
 
 function preload(){
-    base = loadImage("assets/base.png");
+    image = loadImage("assets/base.png");
 }
 function setup(){
     new Canvas(800, 400);
