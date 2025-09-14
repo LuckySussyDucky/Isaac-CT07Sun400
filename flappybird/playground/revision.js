@@ -1,11 +1,11 @@
-let square;
+let ball;
+let floor;
 function setup(){
-    new Canvas(800, 400);
+    new Canvas(800, 800);
     background(250);
     world.gravity.y = 10;
 
-    square = new Sprite(800 / 2, 400 / 2, 25, 25, "static");
-    
+    floor = new Sprite(400, 800, 800, 30, "static");
 }
 
 function draw(){
