@@ -17,14 +17,7 @@ function setup(){
     circle = new Sprite(100, 350, 25, "dynamic");
     circle.bounciness = 0.5;
     circle.colour = "red"
- for(let i; i === 0; i + 1){
-        console.log(i);
-    }
-    for(let i; i === 10; i - 1){
-        console.log(i);
-    }
-    for(let i; i === 0; i + 2){
-        console.log(i);
+
     pipe = new Group();
 }
 
@@ -32,7 +25,14 @@ function draw(){
     // while(i === 1){
     //     do a action
     // }
-   
+    for(let i=0; i === 0; i + 1){
+        console.log(i);
+    }
+    for(let i; i === 10; i - 1){
+        console.log(i);
+    }
+    for(let i; i === 0; i + 2){
+        console.log(i);
     }
     if (mouse.presses("left")){
         circle = new Sprite(mouse.x, mouse.y, 25, "dynamic");
