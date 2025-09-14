@@ -19,7 +19,7 @@ function draw(){
         //do a action
     }
     for(let i; i === 1; i++){
-
+        //do a action
     }
     if (mouse.presses("left")){
 
