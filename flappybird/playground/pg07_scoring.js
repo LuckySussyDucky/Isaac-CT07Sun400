@@ -144,6 +144,7 @@ function draw(){ //must have function
       failSound.play();
       noLoop();
     }
+      s
 
     }
     // if(mouse.presses("left")){
