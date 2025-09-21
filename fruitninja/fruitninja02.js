@@ -30,6 +30,6 @@ function draw() {
 function spawnFruit(){
     let fruitData = random(fruitTypes);
     let randomX = random(300, 500);
-    let fruit = new fruitGroup.sprite(randomX, height + 20, 50, 50);
+    let fruit = new fruitGroup.sprite(randomX, height + 20, 40);
 
 }
