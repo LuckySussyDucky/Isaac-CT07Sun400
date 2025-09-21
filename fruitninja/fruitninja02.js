@@ -32,6 +32,6 @@ function spawnFruit(){
     let randomX = random(300, 500);
     let fruit = new fruitGroup.sprite(randomX, height + 20, 40);
     fruit.image = fruitData.whole;
-    fruit.vel.y = random(-15, -10);
+    fruit.vel.y = random(-10, -15);
 
 }
