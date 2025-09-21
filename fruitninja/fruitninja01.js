@@ -1,6 +1,6 @@
 let dojoBG;
 function preload() {
-    
+    dojo
 }
 
 function setup() {
