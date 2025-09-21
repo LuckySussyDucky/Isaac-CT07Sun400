@@ -3,7 +3,7 @@ let fruitGroup;
 let fruitTypes = [];
 function preload() {
     let peach = {
-        whole : loadImage("assets/peach.png"),
+        whole : loadImage("assets/peachwhole.png"),
     }
     dojoBG = loadImage("assets/dojobackground.png");
 }
