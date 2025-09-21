@@ -28,6 +28,6 @@ function draw() {
 }
 
 function spawnFruit(){
-
+    
 
 }
