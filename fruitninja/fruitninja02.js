@@ -2,7 +2,7 @@ let dojoBG;
 let fruitGroup;
 let fruitTypes = [];
 function preload() {
-    
+    let
     dojoBG = loadImage("assets/dojobackground.png");
 }
 
