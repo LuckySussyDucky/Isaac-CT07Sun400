@@ -1,5 +1,6 @@
 let dojoBG;
 let fruitGroup;
+let fruit
 function preload() {
     dojoBG = loadImage("assets/dojobackground.png");
 }
