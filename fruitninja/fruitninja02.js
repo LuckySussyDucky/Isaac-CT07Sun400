@@ -6,7 +6,7 @@ function preload() {
         whole : loadImage("assets/peachwhole.png"),
     }
     let watermelon = {
-        whole : loadImage("assets/peachwhole.png"),
+        whole : loadImage("assets/watermelonwhole.png"),
     }
     dojoBG = loadImage("assets/dojobackground.png");
 }
