@@ -75,8 +75,7 @@ function slicefruit(){
 }
 
 
-function splitFruit(x, y){
-
+function splitFruit(x, y, fruitData){
 
 
 }
