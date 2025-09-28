@@ -58,8 +58,8 @@ function slicefruit(){
             continue;
         }
         dist(mouse.x, mouse.y, fruit.x, fruit.y);
-         if(distance < fruitD / 2){
-        return true;
+        if(distance < fruitD / 2){
+            return true;
     }
 }
 }
