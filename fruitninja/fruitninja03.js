@@ -23,6 +23,7 @@ function setup() {
     background(250);
     world.gravity.y = 10;
     fruitGroup = new Group();
+    fruitHalves = new Group();
 }
 
 
