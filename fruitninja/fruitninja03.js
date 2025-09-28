@@ -61,6 +61,7 @@ function slicefruit(){
         if(distance < fruitD / 2 + 5){
             fruit.sliced = true;
             fruit.remove;
+            break;
         }
     }
 }
