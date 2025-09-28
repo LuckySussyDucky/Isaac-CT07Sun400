@@ -76,6 +76,6 @@ function slicefruit(){
 
 
 function splitFruit(x, y, fruitData){
-    
+    let left = new 
 
 }
