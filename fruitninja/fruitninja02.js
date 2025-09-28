@@ -14,7 +14,7 @@ function preload() {
 function setup() {
     new Canvas(800, 600);
     background(250);
-    world.gravity.y = 10
+    world.gravity.y = 10;
     fruitGroup = new Group();
 }
 
