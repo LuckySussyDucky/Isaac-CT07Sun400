@@ -5,6 +5,7 @@ let trail;
 function preload() {
     let peach = {
         whole : loadImage("assets/peachwhole.png"),
+        half : loadImage("assets/peachhalf.png"),
     }
     let watermelon = {
         whole : loadImage("assets/watermelonwhole.png"),
