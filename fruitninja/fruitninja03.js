@@ -34,6 +34,10 @@ function draw() {
     trail.color = "red";
     trail.life = 10;
     }
+
+    if(distance < fruitD / 2){
+        
+    }
 }
 
 
