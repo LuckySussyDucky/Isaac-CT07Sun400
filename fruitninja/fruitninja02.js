@@ -8,6 +8,7 @@ function preload() {
     let watermelon = {
         whole : loadImage("assets/watermelonwhole.png"),
     }
+    fruitTypes
     dojoBG = loadImage("assets/dojobackground.png");
 }
 
