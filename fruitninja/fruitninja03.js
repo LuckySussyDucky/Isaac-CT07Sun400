@@ -33,12 +33,9 @@ function draw() {
     trail.collider = "none";
     trail.color = "red";
     trail.life = 10;
-    slicef
+    slicefruit();
     }
 
-    if(distance < fruitD / 2){
-        return true;
-    }
 }
 
 
