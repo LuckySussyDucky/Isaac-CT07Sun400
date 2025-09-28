@@ -2,6 +2,7 @@ let dojoBG;
 let fruitGroup;
 let fruitTypes = [];
 let trail;
+let fruitHalves
 function preload() {
     let peach = {
         whole : loadImage("assets/peachwhole.png"),
