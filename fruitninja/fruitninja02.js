@@ -27,7 +27,15 @@ function draw() {
     if(frameCount % 120 === 0){
         spawnFruit();
     }
+
+    if(mouse.pressing()){
+    trail = new Sprite(mouse.x, mouse.y, 7);
+    trail.collider = "none";
+    trail.color = "red";
+    trail.life = 10;
 }
+}
+
 
 function spawnFruit(){
     let fruitData = random(fruitTypes);
