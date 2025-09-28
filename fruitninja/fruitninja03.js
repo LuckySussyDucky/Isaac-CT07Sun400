@@ -6,6 +6,7 @@ function preload() {
     let peach = {
         whole : loadImage("assets/peachwhole.png"),
         half : loadImage("assets/peachhalf.png"),
+        half    
     }
     let watermelon = {
         whole : loadImage("assets/watermelonwhole.png"),
