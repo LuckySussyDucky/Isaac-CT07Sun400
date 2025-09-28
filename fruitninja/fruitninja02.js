@@ -37,11 +37,4 @@ function spawnFruit(){
     fruit.vel.y = random(-10, -14);
     fruit.vel.x = random(-2, 2);
     fruit.friction = 0;
-
-    if(mouse.pressing()){
-        trail = new Sprite(mouse.x, mouse.y, 7);
-        trail.collider = "none";
-        trail.color = "red";
-        trail.life = 10;
-    }
 }
