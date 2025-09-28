@@ -83,5 +83,5 @@ function splitFruit(x, y, fruitData){
     left.vel.x = -3;
     left.vel.y = random(-5, -2);
     left.rotationSpeed = -5;
-    left.life
+    left.life = 30;
 }
