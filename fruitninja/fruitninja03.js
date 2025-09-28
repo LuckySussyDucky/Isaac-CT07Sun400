@@ -36,7 +36,7 @@ function draw() {
     }
 
     if(distance < fruitD / 2){
-        
+        return true;
     }
 }
 
