@@ -5,11 +5,12 @@ let trail;
 function preload() {
     let peach = {
         whole : loadImage("assets/peachwhole.png"),
-        half : loadImage("assets/peachhalf.png"),
-        half    
+        half1 : loadImage("assets/peachhalf.png"),
+        half2 : loadImage("assets/peachhalf2.png"),
     }
     let watermelon = {
         whole : loadImage("assets/watermelonwhole.png"),
+        half
     }
     fruitTypes = [peach, watermelon];
     dojoBG = loadImage("assets/dojobackground.png");
