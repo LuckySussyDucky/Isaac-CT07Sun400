@@ -1,6 +1,7 @@
 let dojoBG;
 let fruitGroup;
 let fruitTypes = [];
+
 function preload() {
     let peach = {
         whole : loadImage("assets/peachwhole.png"),
