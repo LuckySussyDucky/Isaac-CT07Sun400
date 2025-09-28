@@ -1,5 +1,3 @@
-const { useLayoutEffect } = require("react");
-
 let dojoBG;
 let fruitGroup;
 let fruitTypes = [];
