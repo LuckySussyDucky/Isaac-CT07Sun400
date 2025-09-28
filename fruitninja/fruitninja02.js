@@ -1,6 +1,7 @@
 let dojoBG;
 let fruitGroup;
 let fruitTypes = [];
+let trail
 function preload() {
     let peach = {
         whole : loadImage("assets/peachwhole.png"),
@@ -23,7 +24,7 @@ function draw() {
     clear();
     image(dojoBG, 0, 0, width, height);   
 
-    if(frameCount % 1 === 0){
+    if(frameCount % 120 === 0){
         spawnFruit();
     }
 }
