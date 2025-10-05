@@ -59,6 +59,7 @@ function draw(){
 
     if(mouse.presses(" ") || mouse.presses("left")){
         gameState = "play";
+        
     }
 
     stroke(158, 69, 69);
