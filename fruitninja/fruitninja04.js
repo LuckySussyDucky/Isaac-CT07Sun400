@@ -62,8 +62,7 @@ function draw(){
         score = 0;
         missed = 0;
         fruitGroup.removeAll();
-        
-        
+        fruitHalves.removeAll();
     }
 
     stroke(158, 69, 69);
