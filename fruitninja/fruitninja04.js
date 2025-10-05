@@ -56,7 +56,6 @@ function draw(){
         textAlign(CENTER, CENTER);
         textFont("Fredoka One");
         text("Click to Start", width / 2, height / 2 + 50);
-        return;
     }
 
     if((kb.presses(" ") || mouse.presses("left")) && (gameState === "start")){
