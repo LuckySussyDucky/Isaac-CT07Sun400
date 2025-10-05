@@ -117,6 +117,9 @@ function displaySplash(){
         image(splash.img, splash.x, splash.y, splash.size, splash.size);
         pop();
 
-    
+    splash.life--;
+    if(splash.life <= 0){
+        splashEffect.splice(i, 1);
+    }
     }
 }
