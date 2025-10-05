@@ -4,7 +4,7 @@ let fruitTypes = [];
 let splashEffect = [];
 let trail;
 let fruitHalves;
-function preload() {
+function preload(){
     let peach = {
         whole : loadImage("assets/peachwhole.png"),
         half1 : loadImage("assets/peachhalf.png"),
@@ -23,7 +23,7 @@ function preload() {
 }
 
 
-function setup() {
+function setup(){
     new Canvas(800, 600);
     background(250);
     world.gravity.y = 10;
@@ -32,7 +32,7 @@ function setup() {
 }
 
 
-function draw() {
+function draw(){
     clear();
     image(dojoBG, 0, 0, width, height);   
 
