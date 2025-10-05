@@ -48,7 +48,7 @@ function draw(){
     for(fruit of fruitGroup){
         if(fruit.y < 600){
             missed += 1;
-            
+            fruit.remove();
     }
 }
 
