@@ -64,6 +64,14 @@ function draw(){
             fruit.remove();
         }
     }
+
+    stroke(158, 69, 69);
+    fill("255");
+    textSize(24);
+    textAlign(LEFT, TOP);
+    textFont("Fredoka One");
+    text("Missed: " + missed, 10, 30);
+
 }
 
 function spawnFruit(){
