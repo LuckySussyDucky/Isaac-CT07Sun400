@@ -57,7 +57,7 @@ function draw(){
         return;
     }
 
-    if(.presses(" ") || mouse.presses("left")){
+    if(kb.presses(" ") || mouse.presses("left")){
         gameState = "play";
         
     }
