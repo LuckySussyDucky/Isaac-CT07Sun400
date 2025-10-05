@@ -16,6 +16,7 @@ function preload() {
     }
     fruitTypes = [peach, watermelon];
     dojoBG = loadImage("assets/dojobackground.png");
+    
 }
 
 
