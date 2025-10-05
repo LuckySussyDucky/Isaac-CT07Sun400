@@ -51,6 +51,7 @@ function draw(){
         text("Fruit Ninja", width / 2, height / 2);
         
         textSize(24);
+        text
     } 
 
     stroke(158, 69, 69);
