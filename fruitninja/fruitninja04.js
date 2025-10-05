@@ -36,6 +36,9 @@ function setup(){
 function draw(){
     score += 1;
     fill("255");
+    textSize(24);
+    text
+    text("Score: " + score, 20, 30);
     
 
     clear();
