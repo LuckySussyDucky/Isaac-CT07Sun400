@@ -85,44 +85,44 @@ function draw(){
             }
         }
 
-    stroke(158, 69, 69);
-    fill("255");
-    textSize(24);
-    textAlign(LEFT, TOP);
-    textFont("Fredoka One");
-    text("Missed: " + missed, 10, 30);
-    }
-
-    stroke(158, 69, 69);
-    fill("255");
-    textSize(24);
-    textAlign(LEFT, TOP);
-    textFont("Fredoka One");
-    text("Score: " + score, 10, 10);
-
-    if(frameCount % 120 === 0){
-        spawnFruit();
-    }
-
-    if(mouse.pressing()){
-        trail = new Sprite(mouse.x, mouse.y, 7);
-        trail.collider = "none";
-        trail.color = "red";
-        trail.life = 10;
-        slicefruit();
-        displaySplash();
-    }
-    
-    for(fruit of fruitGroup){
-        if(fruit.y > height + 40){
-            missed += 1;
-            fruit.remove();
+        stroke(158, 69, 69);
+        fill("255");
+        textSize(24);
+        textAlign(LEFT, TOP);
+        textFont("Fredoka One");
+        text("Missed: " + missed, 10, 30);
         }
-    }
 
-    stroke(158, 69, 69);
-    fill("255");
-    textSize(24);
+        stroke(158, 69, 69);
+        fill("255");
+        textSize(24);
+        textAlign(LEFT, TOP);
+        textFont("Fredoka One");
+        text("Score: " + score, 10, 10);
+
+        if(frameCount % 120 === 0){
+            spawnFruit();
+        }
+
+        if(mouse.pressing()){
+            trail = new Sprite(mouse.x, mouse.y, 7);
+            trail.collider = "none";
+            trail.color = "red";
+            trail.life = 10;
+            slicefruit();
+            displaySplash();
+        }
+        
+        for(fruit of fruitGroup){
+            if(fruit.y > height + 40){
+                missed += 1;
+                fruit.remove();
+            }
+        }
+
+        stroke(158, 69, 69);
+        fill("255");
+            textSize(24);
     textAlign(LEFT, TOP);
     textFont("Fredoka One");
     text("Missed: " + missed, 10, 30);
