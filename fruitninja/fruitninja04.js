@@ -44,10 +44,11 @@ function draw(){
         fill(0, 180);
         rect(0, 0, width, height);
         fill(255);
-        textSize(24);
+        textSize(48);
         textAlign(CENTER, CENTER);
         textFont("Fredoka One");
         text("Fruit Ninja", width / 2, height / 2);
+        
     } 
 
     stroke(158, 69, 69);
