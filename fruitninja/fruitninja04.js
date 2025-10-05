@@ -57,7 +57,9 @@ function draw(){
         return;
     }
 
-    if(mouse.presses("space") || mouse)
+    if(mouse.presses("space") || mouse.presses("left")){
+        
+    }
 
     stroke(158, 69, 69);
     fill("255");
