@@ -103,6 +103,6 @@ function displaySplash(){
     for(let i = splashEffect.length; i >= 0; i--){
         let splash = splashEffect[i];
         push();
-        imageMode
+        imageMode();
     }
 }
