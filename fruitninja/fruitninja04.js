@@ -45,10 +45,10 @@ function draw(){
     textFont("Fredoka One");
     text("Score: " + score, 10, 10);
 
-    if(fruit.y < 600){
+    if(fruit.y of fruitGroup< 600){
         missed += 1;
     }
-    
+
     stroke(158, 69, 69);
     fill("255");
     textSize(24);
