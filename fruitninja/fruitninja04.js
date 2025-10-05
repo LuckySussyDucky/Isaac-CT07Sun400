@@ -50,7 +50,7 @@ function draw(){
         displaySplash();
         
         score += 1;
-        Text(score, 700, 50, "", "black");
+        text(score, 700, 50, "", "black");
     }
 
 }
