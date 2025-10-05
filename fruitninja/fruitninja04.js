@@ -30,11 +30,11 @@ function setup(){
     world.gravity.y = 10;
     fruitGroup = new Group();
     fruitHalves = new Group();
-    score += 1;
 }
 
 
 function draw(){
+    score += 1;
     stroke(158, 69, 69);
     fill("255");
     textSize(24);
