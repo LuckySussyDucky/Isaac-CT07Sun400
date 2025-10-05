@@ -35,7 +35,8 @@ function setup(){
 
 function draw(){
     score += 1;
-    fill
+    fill("255");
+    
 
     clear();
     image(dojoBG, 0, 0, width, height);   
