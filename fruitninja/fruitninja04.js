@@ -45,7 +45,7 @@ function draw(){
         textSize(24);
         textAlign(LEFT, TOP);
         textFont("Fredoka One");
-        text("Score: " + score, 10, 10);
+        text("");
     }
 
     stroke(158, 69, 69);
