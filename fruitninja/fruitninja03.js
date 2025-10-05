@@ -1,6 +1,7 @@
 let dojoBG;
 let fruitGroup;
 let fruitTypes = [];
+splashEffect = [];
 let trail;
 let fruitHalves;
 function preload() {
@@ -8,7 +9,7 @@ function preload() {
         whole : loadImage("assets/peachwhole.png"),
         half1 : loadImage("assets/peachhalf.png"),
         half2 : loadImage("assets/peachhalf2.png")
-        
+
     }
     let watermelon = {
         whole : loadImage("assets/watermelonwhole.png"),
