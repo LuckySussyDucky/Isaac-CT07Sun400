@@ -49,8 +49,8 @@ function draw(){
         if(fruit.y < 600){
             missed += 1;
             fruit.remove();
+        }
     }
-}
 
     stroke(158, 69, 69);
     fill("255");
