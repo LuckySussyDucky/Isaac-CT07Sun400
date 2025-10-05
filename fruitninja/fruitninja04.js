@@ -66,6 +66,7 @@ function draw(){
         textAlign(CENTER, CENTER);
         textFont("Fredoka One");
         text("Click to Start", width / 2, height / 2 + 50);
+        return;
     }
 
     stroke(158, 69, 69);
