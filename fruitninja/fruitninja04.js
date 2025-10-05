@@ -34,13 +34,6 @@ function setup(){
 
 
 function draw(){
-    stroke(158, 69, 69);
-    fill("255");
-    textSize(24);
-    textAlign(LEFT, TOP);
-    textFont("Fredoka One");
-    text("Score: " + score, 400, 300);
-
     clear();
     image(dojoBG, 0, 0, width, height);   
 
