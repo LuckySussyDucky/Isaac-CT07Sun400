@@ -109,7 +109,7 @@ function splitFruit(x, y, fruitData){
 
 
 function displaySplash(){
-    for(let i = splashEffect.length; i >= 0; i--){
+    for(let i = splashEffect.length - 1; i >= 0; i--){
         let splash = splashEffect[i];
         push();
         imageMode(CENTER);
