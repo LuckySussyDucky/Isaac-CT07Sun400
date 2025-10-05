@@ -35,7 +35,7 @@ function setup(){
 
 function draw(){
     score += 1;
-    FileList(black)
+    fill
 
     clear();
     image(dojoBG, 0, 0, width, height);   
