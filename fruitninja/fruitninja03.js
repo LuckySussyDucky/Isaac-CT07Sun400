@@ -4,6 +4,7 @@ let fruitTypes = [];
 let splashEffect = [];
 let trail;
 let fruitHalves;
+let
 function preload() {
     let peach = {
         whole : loadImage("assets/peachwhole.png"),
