@@ -57,7 +57,7 @@ function draw(){
         return;
     }
 
-    if(mouse.presses(" ") || mouse.presses("left")){
+    if(kb.presses(" ") || mouse.presses("left")){
         stroke(158, 69, 69);
         fill("255");
         textSize(24);
