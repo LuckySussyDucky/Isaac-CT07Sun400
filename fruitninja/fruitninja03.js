@@ -46,6 +46,7 @@ function draw() {
         trail.color = "red";
         trail.life = 10;
         slicefruit();
+                    displaySplash();
     }
 
 }
@@ -75,7 +76,6 @@ function slicefruit(){
             const fruitY = fruit.y;
             fruit.remove();
             splitFruit(fruitX, fruitY, fruit.type);
-            displaySplash();
             break;
         }
     }
