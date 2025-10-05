@@ -34,8 +34,8 @@ function setup(){
     fruitHalves = new Group();
 
     if(gameState === "start"){
+        backgroun
     }
-    
 }
 
 
