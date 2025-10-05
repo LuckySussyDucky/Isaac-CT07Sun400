@@ -38,7 +38,7 @@ function draw(){
     fill("255");
     textSize(24);
     textAlign(LEFT, TOP);
-    text("Score: " + score, 20, 30);
+    text("Score: " + score, 10, 10);
 
     clear();
     image(dojoBG, 0, 0, width, height);   
