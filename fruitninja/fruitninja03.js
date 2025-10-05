@@ -48,7 +48,7 @@ function draw() {
         slicefruit();
     }
 
-    
+    displaySplash();
 }
 
 
