@@ -55,7 +55,9 @@ function draw(){
         textFont("Fredoka One");
         text("Click to Start", width / 2, height / 2 + 50);
         return;
-    } 
+    }
+
+    if
 
     stroke(158, 69, 69);
     fill("255");
