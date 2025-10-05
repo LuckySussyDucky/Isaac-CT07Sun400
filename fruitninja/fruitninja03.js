@@ -104,6 +104,6 @@ function displaySplash(){
         let splash = splashEffect[i];
         push();
         imageMode(CENTER);
-        tint(255, map())
+        tint(255, map(splash.life, ));
     }
 }
