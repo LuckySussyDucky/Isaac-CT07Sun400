@@ -58,7 +58,7 @@ function draw(){
     textFont("Fredoka One");
     text("Missed: " + missed, 10, 30);
 
-    if(frameCount % 1 === 0){
+    if(frameCount % 120 === 0){
         spawnFruit();
     }
 
