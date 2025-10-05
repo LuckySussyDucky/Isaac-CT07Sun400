@@ -45,7 +45,7 @@ function draw(){
         textSize(24);
         textAlign(LEFT, TOP);
         textFont("Fredoka One");
-        text("Fruit Ninja");
+        text("Fruit Ninja", 10, 10);
     }
 
     stroke(158, 69, 69);
