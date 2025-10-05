@@ -41,7 +41,6 @@ function draw(){
     image(dojoBG, 0, 0, width, height);   
 
     if(gameState === "start"){
-        stroke(158, 69, 69);
         fill(0, 180);
         rect(0, 0, width, height);
         fill(255);
