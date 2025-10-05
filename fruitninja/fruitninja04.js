@@ -65,7 +65,7 @@ function draw(){
         fruitGroup.removeAll();
         fruitHalves.removeAll();
         bgtrack.loop();
-        PaymentRequestUpdateEvent;
+        return;
     }
 
     stroke(158, 69, 69);
