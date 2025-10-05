@@ -48,7 +48,9 @@ function draw(){
         trail.life = 10;
         slicefruit();
         displaySplash();
+        
         score += 1;
+        Text()
     }
 
 }
