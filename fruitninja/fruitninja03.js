@@ -101,7 +101,7 @@ function splitFruit(x, y, fruitData){
         x : x,
         y : y,
         img : fruitData.splash,
-        size : 60,
+        size : 80,
         life : 30
     })
 }
