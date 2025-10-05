@@ -57,7 +57,7 @@ function draw(){
         return;
     }
 
-    if
+    if(mouse.presse)
 
     stroke(158, 69, 69);
     fill("255");
