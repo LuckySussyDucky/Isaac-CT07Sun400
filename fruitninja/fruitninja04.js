@@ -42,7 +42,7 @@ function draw(){
     textSize(24);
     textAlign(LEFT, TOP);
     textFont("Fredoka One");
-    text("Score: " + score, 10, 300);
+    text("Score: " + score, 10, 10);
 
     if(frameCount % 1 === 0){
         spawnFruit();
