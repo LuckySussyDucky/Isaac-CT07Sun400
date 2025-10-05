@@ -59,7 +59,7 @@ function draw(){
     }
     
     for(fruit of fruitGroup){
-        if(fruit.y > height){
+        if(fruit.y > height + 40){
             missed += 1;
             fruit.remove();
         }
