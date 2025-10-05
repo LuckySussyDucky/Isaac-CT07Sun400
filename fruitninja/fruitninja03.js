@@ -1,20 +1,22 @@
 let dojoBG;
 let fruitGroup;
 let fruitTypes = [];
-splashEffect = [];
+let splashEffect = [];
 let trail;
 let fruitHalves;
 function preload() {
     let peach = {
         whole : loadImage("assets/peachwhole.png"),
         half1 : loadImage("assets/peachhalf.png"),
-        half2 : loadImage("assets/peachhalf2.png")
+        half2 : loadImage("assets/peachhalf2.png"),
+        splash : loadImage("assets/peachsplash.png")
 
     }
     let watermelon = {
         whole : loadImage("assets/watermelonwhole.png"),
         half1 : loadImage("assets/watermelonhalf.png"),
-        half2 : loadImage("assets/watermelonhalf.png")
+        half2 : loadImage("assets/watermelonhalf.png"),
+        splash : loadImage("assets/watermelonsplash.png")
     }
     fruitTypes = [peach, watermelon];
     dojoBG = loadImage("assets/dojobackground.png");
