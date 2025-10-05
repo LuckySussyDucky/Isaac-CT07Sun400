@@ -45,6 +45,16 @@ function draw(){
     textFont("Fredoka One");
     text("Score: " + score, 10, 10);
 
+    if(fruit.y < 600){
+        missed += 1;
+
+    stroke(158, 69, 69);
+    fill("255");
+    textSize(24);
+    textAlign(LEFT, TOP);
+    textFont("Fredoka One");
+    text("Missed: " + score, 10, 30);
+
     if(frameCount % 1 === 0){
         spawnFruit();
     }
@@ -56,9 +66,9 @@ function draw(){
         trail.life = 10;
         slicefruit();
         displaySplash();
+        }
     }
 }
-
 
 function spawnFruit(){
     let fruitData = random(fruitTypes);
