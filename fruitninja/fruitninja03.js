@@ -116,5 +116,7 @@ function displaySplash(){
         tint(255, map(splash.life, 0, 30, 0, 255)); //fade out splash
         image(splash.img, splash.x, splash.y, splash.size, splash.size);
         pop();
+
+    
     }
 }
