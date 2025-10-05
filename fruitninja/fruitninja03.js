@@ -75,6 +75,7 @@ function slicefruit(){
             const fruitY = fruit.y;
             fruit.remove();
             splitFruit(fruitX, fruitY, fruit.type);
+            displaySplash();
             break;
         }
     }
