@@ -57,7 +57,7 @@ function draw(){
         return;
     }
 
-    if(kb.presses(" ") || mouse.presses("left")){
+    if(mouse.presses(" ") || mouse.presses("left")){
         stroke(158, 69, 69);
         fill("255");
         textSize(24);
@@ -118,14 +118,15 @@ function draw(){
                 missed += 1;
                 fruit.remove();
             }
-        }
+    }
 
-        stroke(158, 69, 69);
-        fill("255");
-        textSize(24);
-        textAlign(LEFT, TOP);
-        textFont("Fredoka One");
-        text("Missed: " + missed, 10, 30);
+    stroke(158, 69, 69);
+    fill("255");
+    textSize(24);
+    textAlign(LEFT, TOP);
+    textFont("Fredoka One");
+    text("Missed: " + missed, 10, 30);
+
 }
 
 function spawnFruit(){
