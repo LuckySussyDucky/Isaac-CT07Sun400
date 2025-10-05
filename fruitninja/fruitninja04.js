@@ -39,6 +39,15 @@ function draw(){
     clear();
     image(dojoBG, 0, 0, width, height);   
 
+    if(gameState === "start"){
+        stroke(158, 69, 69);
+        fill("255");
+        textSize(24);
+        textAlign(LEFT, TOP);
+        textFont("Fredoka One");
+        text("Score: " + score, 10, 10);
+    }
+
     stroke(158, 69, 69);
     fill("255");
     textSize(24);
