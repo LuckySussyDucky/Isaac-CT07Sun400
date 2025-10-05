@@ -63,11 +63,11 @@ function draw(){
         textSize(24);
         textAlign(LEFT, TOP);
         textFont("Fredoka One");
-    text("Score: " + score, 10, 10);
+        text("Score: " + score, 10, 10);
 
-    if(frameCount % 120 === 0){
-        spawnFruit();
-    }
+        if(frameCount % 120 === 0){
+            spawnFruit();
+        }
 
     if(mouse.pressing()){
         trail = new Sprite(mouse.x, mouse.y, 7);
