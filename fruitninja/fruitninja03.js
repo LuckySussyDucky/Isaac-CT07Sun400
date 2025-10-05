@@ -16,7 +16,7 @@ function preload() {
     }
     fruitTypes = [peach, watermelon];
     dojoBG = loadImage("assets/dojobackground.png");
-    splashW = load
+    splashW = loadImage
 }
 
 
