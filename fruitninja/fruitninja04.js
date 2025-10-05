@@ -34,6 +34,9 @@ function setup(){
 
 
 function draw(){
+    score += 1;
+        text(score, 700, 50, "", "black");
+        
     clear();
     image(dojoBG, 0, 0, width, height);   
 
@@ -48,9 +51,6 @@ function draw(){
         trail.life = 10;
         slicefruit();
         displaySplash();
-        
-        score += 1;
-        text(score, 700, 50, "", "black");
     }
 
 }
