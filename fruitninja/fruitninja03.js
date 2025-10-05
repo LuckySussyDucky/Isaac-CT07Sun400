@@ -120,6 +120,6 @@ function displaySplash(){
     splash.life--;
     if(splash.life <= 0){
         splashEffect.splice(i, 1);
-    }
+        }
     }
 }
