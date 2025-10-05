@@ -56,7 +56,7 @@ function draw(){
     textSize(24);
     textAlign(LEFT, TOP);
     textFont("Fredoka One");
-    text("Missed: " + score, 10, 30);
+    text("Missed: " + missed, 10, 30);
 
     if(frameCount % 1 === 0){
         spawnFruit();
