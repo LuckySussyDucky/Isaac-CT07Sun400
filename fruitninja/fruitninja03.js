@@ -8,6 +8,7 @@ function preload() {
         whole : loadImage("assets/peachwhole.png"),
         half1 : loadImage("assets/peachhalf.png"),
         half2 : loadImage("assets/peachhalf2.png")
+        
     }
     let watermelon = {
         whole : loadImage("assets/watermelonwhole.png"),
@@ -16,8 +17,6 @@ function preload() {
     }
     fruitTypes = [peach, watermelon];
     dojoBG = loadImage("assets/dojobackground.png");
-    splashW = loadImage("assets/watermelonsplash.png");
-    splashP = loadImage("assets/peachsplash.png");
 }
 
 
