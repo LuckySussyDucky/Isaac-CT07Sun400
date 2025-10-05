@@ -47,7 +47,8 @@ function draw(){
 
     if(fruit.y < 600){
         missed += 1;
-
+    }
+    
     stroke(158, 69, 69);
     fill("255");
     textSize(24);
@@ -66,7 +67,6 @@ function draw(){
         trail.life = 10;
         slicefruit();
         displaySplash();
-    }
     }
 }
 
