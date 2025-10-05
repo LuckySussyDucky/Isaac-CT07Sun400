@@ -46,7 +46,7 @@ function draw() {
         trail.color = "red";
         trail.life = 10;
         slicefruit();
-                    displaySplash();
+        displaySplash();
     }
 
 }
@@ -100,4 +100,5 @@ function splitFruit(x, y, fruitData){
 
 
 function displaySplash(){
+    
 }
