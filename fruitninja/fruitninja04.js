@@ -6,7 +6,7 @@ let trail;
 let fruitHalves;
 let score = 0;
 let missed = 0;
-let
+let gameState = "start";
 function preload(){
     let peach = {
         whole : loadImage("assets/peachwhole.png"),
