@@ -55,7 +55,6 @@ function draw(){
         trail.life = 10;
         slicefruit();
         displaySplash();
-        score += 1;
     }
 }
 
@@ -84,6 +83,7 @@ function slicefruit(){
             const fruitY = fruit.y;
             fruit.remove();
             splitFruit(fruitX, fruitY, fruit.type);
+                    score += 1;
             break;
         }
     }
