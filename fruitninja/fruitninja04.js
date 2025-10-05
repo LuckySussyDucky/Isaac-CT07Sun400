@@ -40,7 +40,7 @@ function draw(){
 
     stroke(158, 69, 69);
     fill("255");
-    textSize(48);
+    textSize(36);
     textAlign(LEFT, TOP);
     textFont("Fredoka One");
     text("Score: " + score, 10, 10);
@@ -67,7 +67,7 @@ function draw(){
 
     stroke(158, 69, 69);
     fill("255");
-    textSize();
+    textSize(36);
     textAlign(LEFT, TOP);
     textFont("Fredoka One");
     text("Missed: " + missed, 10, 50);
