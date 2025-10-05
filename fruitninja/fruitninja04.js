@@ -69,21 +69,21 @@ function draw(){
             spawnFruit();
         }
 
-    if(mouse.pressing()){
-        trail = new Sprite(mouse.x, mouse.y, 7);
-        trail.collider = "none";
-        trail.color = "red";
-        trail.life = 10;
-        slicefruit();
-        displaySplash();
-    }
-    
-    for(fruit of fruitGroup){
-        if(fruit.y > height + 40){
-            missed += 1;
-            fruit.remove();
+        if(mouse.pressing()){
+            trail = new Sprite(mouse.x, mouse.y, 7);
+            trail.collider = "none";
+            trail.color = "red";
+            trail.life = 10;
+            slicefruit();
+            displaySplash();
         }
-    }
+        
+        for(fruit of fruitGroup){
+            if(fruit.y > height + 40){
+                missed += 1;
+                fruit.remove();
+            }
+        }
 
     stroke(158, 69, 69);
     fill("255");
