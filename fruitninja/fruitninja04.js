@@ -46,6 +46,7 @@ function draw(){
     if(gameState === "start"){
         stroke(158, 69, 69);
         fill(0, 180);
+        rect
         textSize(24);
         textAlign(CENTER, CENTER);
         textFont("Fredoka One");
