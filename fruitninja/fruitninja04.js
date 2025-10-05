@@ -57,7 +57,7 @@ function draw(){
         return;
     }
 
-    if(kb.presses(" ") || mouse.presses("left")){
+    if(kb.presses(" ") || mouse.presses("left") && gameState === "gameover"){
         gameState = "play";
         score = 0;
         missed = 0;
