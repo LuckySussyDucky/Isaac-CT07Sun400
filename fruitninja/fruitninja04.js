@@ -65,7 +65,7 @@ function draw(){
         missed = 0;
         fruitGroup.removeAll();
         fruitHalves.removeAll();
-        bgtrack.play();
+        bgtrack.loop();
     }
 
     stroke(158, 69, 69);
