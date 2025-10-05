@@ -70,7 +70,7 @@ function draw(){
     textSize(24);
     textAlign(LEFT, TOP);
     textFont("Fredoka One");
-    text("Missed: " + missed, 10, 50);
+    text("Missed: " + missed, 10, 30);
 
 }
 
