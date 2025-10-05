@@ -43,12 +43,14 @@ function draw(){
     if(gameState === "start"){
         fill(0, 180);
         rect(0, 0, width, height);
+
         fill(255);
         textSize(48);
         textAlign(CENTER, CENTER);
         textFont("Fredoka One");
         text("Fruit Ninja", width / 2, height / 2);
         
+        textSize(24);
     } 
 
     stroke(158, 69, 69);
