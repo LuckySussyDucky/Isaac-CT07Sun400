@@ -23,8 +23,8 @@ function preload(){
     }
     fruitTypes = [peach, watermelon];
     dojoBG = loadImage("assets/dojobackground.png");
-    bgtrack = playAudio("assets/bgtrack.mp3");
-
+    bgtrack = createAudio("assets/bgtrack.mp3");
+    
 }
 
 
