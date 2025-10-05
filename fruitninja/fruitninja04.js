@@ -83,7 +83,7 @@ function slicefruit(){
             const fruitY = fruit.y;
             fruit.remove();
             splitFruit(fruitX, fruitY, fruit.type);
-                    score += 1;
+            score += 1;
             break;
         }
     }
