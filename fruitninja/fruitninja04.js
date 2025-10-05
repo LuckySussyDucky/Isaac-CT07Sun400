@@ -39,7 +39,7 @@ function draw(){
     textSize(24);
     textAlign(LEFT, TOP);
     textFont("Fredoka One");
-    text("Score: " + score, 10, 10);
+    text("Score: " + score, 400, 300);
 
     clear();
     image(dojoBG, 0, 0, width, height);   
