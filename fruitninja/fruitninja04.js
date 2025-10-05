@@ -34,7 +34,6 @@ function setup(){
 
 
 function draw(){
-    score += 1;
     stroke(158, 69, 69);
     fill("255");
     textSize(24);
@@ -56,6 +55,7 @@ function draw(){
         trail.life = 10;
         slicefruit();
         displaySplash();
+        score += 1;
     }
 
 }
