@@ -42,6 +42,16 @@ function draw(){
     clear();
     image(dojoBG, 0, 0, width, height);   
 
+    if((kb.presses(" ") || mouse.presses("left")) && (gameState === "start")){
+        gameState = "play";
+        score = 0;
+        missed = 0;
+        fruitGroup.removeAll();
+        fruitHalves.removeAll();
+        bgtrack.loop();
+        return;
+    }
+
     if(gameState === "start"){
         fill(0, 180);
         rect(0, 0, width, height);
@@ -56,16 +66,6 @@ function draw(){
         textAlign(CENTER, CENTER);
         textFont("Fredoka One");
         text("Click to Start", width / 2, height / 2 + 50);
-    }
-
-    if((kb.presses(" ") || mouse.presses("left")) && (gameState === "start")){
-        gameState = "play";
-        score = 0;
-        missed = 0;
-        fruitGroup.removeAll();
-        fruitHalves.removeAll();
-        bgtrack.loop();
-        return;
     }
 
     stroke(158, 69, 69);
