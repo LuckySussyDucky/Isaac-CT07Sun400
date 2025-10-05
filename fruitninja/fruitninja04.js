@@ -61,6 +61,8 @@ function draw(){
         gameState = "play";
         score = 0;
         missed = 0;
+        fruitGroup.removeAll();
+        
         
     }
 
