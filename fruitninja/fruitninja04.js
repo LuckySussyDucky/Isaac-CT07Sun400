@@ -50,7 +50,6 @@ function draw(){
         displaySplash();
         score += 1;
     }
-
 }
 
 
