@@ -97,8 +97,14 @@ function splitFruit(x, y, fruitData){
     right.rotationSpeed = 5;
     right.life = 30;
 
-    splashEffect.push({})
-    }
+    splashEffect.push({
+        x : x,
+        y : y,
+        img : fruitData.splash,
+        size : 60,
+        life : 30
+    })
+}
 
 
 
