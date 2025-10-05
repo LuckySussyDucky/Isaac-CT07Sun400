@@ -60,6 +60,7 @@ function draw(){
     if(kb.presses(" ") || mouse.presses("left")){
         gameState = "play";
         score = 0;
+        missed = 0;
         
     }
 
