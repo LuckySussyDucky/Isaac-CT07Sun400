@@ -43,8 +43,6 @@ function draw(){
     clear();
     image(dojoBG, 0, 0, width, height);   
 
-    gameTimer = floor((millis() - startTime) / 1000);
-
     if((kb.presses(" ") || mouse.presses("left")) && (gameState === "start")){
         gameState = "play";
         score = 0;
