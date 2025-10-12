@@ -83,11 +83,10 @@ function draw(){
     }
 
     if(gameState === "play"){
-if(frameCount % 120 === 0){
-        spawnFruit();
+        if(frameCount % 120 === 0){
+            spawnFruit();
     }
-
-    }
+}
 
     if(gameState === "gameover"){
         bgtrack.stop();
