@@ -113,27 +113,6 @@ function draw(){
             fruit.remove();
         }
     }
-
-    stroke(158, 69, 69);
-    fill("255");
-    textSize(24);
-    textAlign(LEFT, TOP);
-    textFont("Fredoka One");
-    text("Missed: " + missed, 10, 30);
-
-    stroke(158, 69, 69);
-    fill("255");
-    textSize(24);
-    textAlign(LEFT, TOP);
-    textFont("Fredoka One");
-    text("Score: " + score, 10, 10);
-
-    gameTimer = floor((millis() - startTime) / 1000);
-        text("Time: " + (gameduration - gameTimer), 10, 50);
-        if(gameTimer >= gameduration){
-            gameState = "gameover";
-            return;
-    }
 }
 
 function spawnFruit(){
