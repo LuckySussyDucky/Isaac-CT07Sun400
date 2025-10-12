@@ -111,6 +111,8 @@ function draw(){
     textAlign(LEFT, TOP);
     textFont("Fredoka One");
     text("Time: " + time, 10, 50);
+
+    
 }
 
 function spawnFruit(){
