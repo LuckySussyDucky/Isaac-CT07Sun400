@@ -70,12 +70,26 @@ function draw(){
         textAlign(CENTER, CENTER);
         textFont("Fredoka One");
         text("Click to Start", width / 2, height / 2 + 50);
-        return;
+
+        gameTimer = floor((millis() - startTime) / 1000);
+        text("Time: " + (gameduration - gameTimer), 10, 50);
+        if(gameTimer >= gameduration){
+            gameState = "gameover";
+            return;
     }
 
-    
-    gameTimer = floor((millis() - startTime) / 1000);
-    text("Time: " + (gameduration - gameTimer), 10, 50);
+    if(gameState === "gameover"){
+        bgtrack.stop();
+        fill(0, 180);
+        rect(0, 0, width, height);
+
+        fill(255);
+        textSize(48);
+        textAlign(CENTER, CENTER);
+        textFont("Fredoka One");
+        textColor = "red";
+        text("Game Over", width / 2, height / 2);
+    }
 
     if(frameCount % 120 === 0){
         spawnFruit();
@@ -111,7 +125,7 @@ function draw(){
     textFont("Fredoka One");
     text("Time: " + time, 10, 50);
 
-
+    }
 }
 
 function spawnFruit(){

@@ -102,8 +102,7 @@ function draw(){
     textSize(24);
     textAlign(LEFT, TOP);
     textFont("Fredoka One");
-    text("Time: " + time, 10, 50);
-
+    text("Score: " + score, 10, 10);
 
 }
 
