@@ -56,7 +56,7 @@ function draw(){
         fruitHalves.removeAll();
         gameStartTime = millis();
         gameTimer = 0;
-        difficulty
+        difficultyNumFruits = 1;
         bgtrack.loop();
         return;
     }
