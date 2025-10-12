@@ -25,6 +25,7 @@ function preload(){
     dojoBG = loadImage("assets/dojobackground.png");
     bgtrack = createAudio("assets/fruit-ninja-bgtrack.mp3");
     combo = createAudio("assets/fruit-ninja-combo.mp3");
+    
 }
 
 
