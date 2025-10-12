@@ -84,9 +84,11 @@ function draw(){
 
     if(gameState === "play"){
         if(frameCount % 120 === 0){
-            spawnFruit();
+            for(let i = 0; i < difficultyNumFruits; i++){
+                spawnFruit();
+                
+        }
     }
-}
 
     if(gameState === "gameover"){
         bgtrack.stop();
