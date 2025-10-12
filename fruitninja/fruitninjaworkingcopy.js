@@ -101,7 +101,7 @@ function draw(){
         }
 
         gameTimer =floor((millis()-gameStartTime)/1000);
-        text('Time:'+(gameduration-gameTimer),400,10);
+        text('Time: '+(gameduration-gameTimer),400,10);
         if(gameTimer >= gameduration){
             gameState='gameover';
             return;
