@@ -6,9 +6,6 @@ let trail;
 let fruitHalves;
 let score = 0;
 let missed = 0;
-let gameTimer = 0;
-let startTime = 0;
-let gameduration = 10;
 let gameState = "start";
 function preload(){
     let peach = {
