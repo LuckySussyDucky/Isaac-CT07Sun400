@@ -57,8 +57,6 @@ function draw(){
         gameStartTime = millis();
         gameTimer = 0;
         difficultyNumFruits = 1;
-        bgtrack.loop();
-
     }
 
     if(gameState === "start"){
