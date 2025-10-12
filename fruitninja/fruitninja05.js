@@ -54,6 +54,7 @@ function draw(){
         missed = 0;
         fruitGroup.removeAll();
         fruitHalves.removeAll();
+        game
         bgtrack.loop();
         return;
     }
