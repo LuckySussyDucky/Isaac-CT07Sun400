@@ -75,7 +75,7 @@ function draw(){
 
     
     gameTimer = floor((millis() - startTime) / 1000);
-    text("Time: " + (gamegameTimer), 10, 50);
+    text("Time: " + (gameduration - gameTimer), 10, 50);
 
     if(frameCount % 120 === 0){
         spawnFruit();
