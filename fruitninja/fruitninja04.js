@@ -6,7 +6,7 @@ let trail;
 let fruitHalves;
 let score = 0;
 let missed = 0;
-let time = 0;
+let = 0;
 let startTime = 0;
 let gameduration = 10;
 let gameState = "start";
