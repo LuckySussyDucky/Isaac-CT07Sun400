@@ -82,7 +82,9 @@ function draw(){
             return;
     }
 
-    if(gamestate)
+    if(gameState === "play"){
+        
+    }
 
     if(gameState === "gameover"){
         bgtrack.stop();
