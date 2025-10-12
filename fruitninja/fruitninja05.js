@@ -82,6 +82,8 @@ function draw(){
             return;
     }
 
+    if(gamestate)
+
     if(gameState === "gameover"){
         bgtrack.stop();
         fill(0, 180);
