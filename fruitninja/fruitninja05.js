@@ -60,6 +60,7 @@ function draw(){
     }
 
     if(gameState === "start"){
+        bgtrack.stop();
         fill(0, 180);
         rect(0, 0, width, height);
 
