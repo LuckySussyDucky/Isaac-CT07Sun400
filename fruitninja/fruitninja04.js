@@ -7,6 +7,7 @@ let fruitHalves;
 let score = 0;
 let missed = 0;
 let time = 60;
+let
 let gameState = "start";
 function preload(){
     let peach = {
@@ -112,7 +113,7 @@ function draw(){
     textFont("Fredoka One");
     text("Time: " + time, 10, 50);
 
-    
+
 }
 
 function spawnFruit(){
