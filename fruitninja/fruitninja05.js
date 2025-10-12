@@ -86,7 +86,7 @@ function draw(){
         if(frameCount % 120 === 0){
             for(let i = 0; i < difficultyNumFruits; i++){
                 spawnFruit();
-                
+            }
         }
     }
 
