@@ -11,7 +11,7 @@ let startTime = 0;
 let gameduration = 10;
 let gameState = "start";
 let difficultyNumFruits = 1;
-let last
+let lastDifficultyIncrease = 0;
 function preload(){
     let peach = {
         whole : loadImage("assets/peachwhole.png"),
