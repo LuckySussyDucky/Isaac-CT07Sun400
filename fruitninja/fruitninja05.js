@@ -73,6 +73,10 @@ function draw(){
         return;
     }
 
+    
+    gameTimer = floor((millis() - startTime) / 1000);
+    
+
     if(frameCount % 120 === 0){
         spawnFruit();
     }
