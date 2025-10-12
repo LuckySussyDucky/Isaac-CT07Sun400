@@ -6,7 +6,7 @@ let trail;
 let fruitHalves;
 let score = 0;
 let missed = 0;
-let = 0;
+let gameTimer = 0;
 let startTime = 0;
 let gameduration = 10;
 let gameState = "start";
@@ -46,12 +46,7 @@ function draw(){
     clear();
     image(dojoBG, 0, 0, width, height);   
 
-    stroke(158, 69, 69);
-    fill("255");
-    textSize(24);
-    textAlign(LEFT, TOP);
-    textFont("Fredoka One");
-    text("Score: " + score, 10, 10);
+    
 
     if((kb.presses(" ") || mouse.presses("left")) && (gameState === "start")){
         gameState = "play";
