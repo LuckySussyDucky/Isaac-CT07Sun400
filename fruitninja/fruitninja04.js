@@ -73,13 +73,6 @@ function draw(){
         return;
     }
 
-    stroke(158, 69, 69);
-    fill("255");
-    textSize(24);
-    textAlign(LEFT, TOP);
-    textFont("Fredoka One");
-    text("Score: " + score, 10, 10);
-
     if(frameCount % 120 === 0){
         spawnFruit();
     }
