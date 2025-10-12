@@ -109,7 +109,7 @@ function draw(){
     textSize(24);
     textAlign(LEFT, TOP);
     textFont("Fredoka One");
-    text("Missed: " + missed, 10, 30);
+    text("Time: " + missed, 10, 30);
 }
 
 function spawnFruit(){
