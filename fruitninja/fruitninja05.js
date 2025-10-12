@@ -126,7 +126,7 @@ function draw(){
     textSize(24);
     textAlign(LEFT, TOP);
     textFont("Fredoka One");
-    text("Missed: " + missed, 10, 30);
+    text("score: " + missed, 10, 10);
 
     gameTimer = floor((millis() - startTime) / 1000);
         text("Time: " + (gameduration - gameTimer), 10, 50);
