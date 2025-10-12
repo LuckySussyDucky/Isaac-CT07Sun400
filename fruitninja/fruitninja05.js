@@ -75,11 +75,6 @@ function draw(){
         textFont("Fredoka One");
         text("Click to Start", width / 2, height / 2 + 50);
 
-        gameTimer = floor((millis() - startTime) / 1000);
-        text("Time: " + (gameduration - gameTimer), 10, 50);
-        if(gameTimer >= gameduration){
-            gameState = "gameover";
-            return;
     }
 
     if(gameState === "play"){
@@ -125,7 +120,12 @@ function draw(){
     textAlign(LEFT, TOP);
     textFont("Fredoka One");
     text("Missed: " + missed, 10, 30);
-    
+
+    gameTimer = floor((millis() - startTime) / 1000);
+        text("Time: " + (gameduration - gameTimer), 10, 50);
+        if(gameTimer >= gameduration){
+            gameState = "gameover";
+            return;
     }
 }
 
