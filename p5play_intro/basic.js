@@ -101,5 +101,6 @@ console.log(oddSum);
   }
 
   area = height * base * 0.5;
+  console.log(area);
 
 }
