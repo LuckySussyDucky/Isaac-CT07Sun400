@@ -17,7 +17,7 @@ function setup(){
     bird.width = 40;
     bird.height = 30;
     bird.img = midflap;
-    bird
+    bird.collider = "static";
 }
 
 function draw(){
