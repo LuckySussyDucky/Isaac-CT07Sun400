@@ -1,6 +1,6 @@
 let background;
 function preload(){
-    loadImage("assets/background-day.png");
+    background = loadImage("assets/background-day.png");
 
 }
 
