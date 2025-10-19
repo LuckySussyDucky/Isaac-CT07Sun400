@@ -11,7 +11,9 @@ function setup(){
     world.gravity.y = 10;
 
     bird = new Sprite();
-    bird.x
+    bird.x = width / 2;
+    bird.y = height / 2;
+    bird.addImage("normal", loadImage("assets/yellowbird-midflap.png"));
 }
 
 function draw(){
