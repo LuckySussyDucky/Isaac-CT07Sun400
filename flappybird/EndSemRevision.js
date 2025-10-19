@@ -19,6 +19,9 @@ function setup(){
     bird.height = 30;
     bird.img = midflap;
     bird.collider = "dynamic";
+
+    circle = new Sprite();
+    
 }
 
 function draw(){
