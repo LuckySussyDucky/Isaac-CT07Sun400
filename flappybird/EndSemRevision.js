@@ -29,7 +29,7 @@ function setup(){
 
     floor = new Sprite(width / 2, height - 10, 100, 50);
     floor.collider = "static";
-    floor.img = base;
+
 }
 
 function draw(){
