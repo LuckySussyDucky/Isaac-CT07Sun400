@@ -112,9 +112,9 @@ console.log(oddSum);
   if (age <= 9){
     category = "lower primary";
   }else if (age <= 12){
-    category = "upper primary";
+    console.log("upper primary");
   }else if (age <= 16){
-    comsole.log("secondary";
+    console.log("secondary");
   }else{
     console.log("a place for very old people");
   }
