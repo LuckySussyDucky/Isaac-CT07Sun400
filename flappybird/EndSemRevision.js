@@ -22,10 +22,11 @@ function setup(){
 
     circle = new Sprite();
     circle.x = width / 2;
-    circle.y = height / 2 + 100;
+    circle.y = height / 2;
     circle.width = 50;
     circle.height = 50;
     circle.collider = "dynamic";
+    circle.bou
 }
 
 function draw(){
