@@ -9,6 +9,8 @@ function preload(){
 function setup(){
     new Canvas(400, 600);
     world.gravity.y = 10;
+
+    bird = new Sprite();
 }
 
 function draw(){
