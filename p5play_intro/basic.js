@@ -105,7 +105,8 @@ console.log(oddSum);
   text("Area is " + area, 20, 330);
 
   for(let i = 0; i < 47; i += 3){
-    console.log(i);
+    if(i % 3 == 0){
+      console.log(i);
     }
 
   age = 10;
@@ -123,11 +124,11 @@ console.log(oddSum);
     text("a place for very old people", 20, 360);
   }
 
-  while(num <= 19){
-    console.log(num);
-    text(num, 20, 390);
-    num = num - 2;
-  }
+  // while(num <= 19){
+  //   console.log(num);
+  //   text(num, 20, 390);
+  //   num = num - 2;
+  // }
 
   groceries = ["Apple", "Bread", "Milk"];
   groceries.push("Orange");
@@ -138,4 +139,5 @@ console.log(oddSum);
   for(let i = 0; i < groceries.length; i++){
     text(groceries[i],20, 420)
   }
+}
 }
