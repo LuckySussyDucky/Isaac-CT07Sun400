@@ -21,7 +21,11 @@ function setup(){
     bird.collider = "dynamic";
 
     circle = new Sprite();
-    
+    circle.x = width / 2;
+    circle.y = height / 2 + 100;
+    circle.width = 50;
+    circle.height = 50;
+    circle.collider = "dynamic";
 }
 
 function draw(){
