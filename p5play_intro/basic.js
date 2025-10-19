@@ -128,4 +128,9 @@ console.log(oddSum);
     text(num, 20, 390);
     num = num - 2;
   }
+
+  groceries = ["Apple", "Bread", "Milk"];
+  groceries.push("Orange");
+  groceries.push("Butter");
+  
 }
