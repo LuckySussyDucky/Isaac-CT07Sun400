@@ -118,6 +118,5 @@ console.log(oddSum);
   }else{
     console.log("a place for very old people");
   }
-  text("You are " + age + " years old in " +  category, 20, 120);
 
 }
