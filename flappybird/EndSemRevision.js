@@ -13,7 +13,7 @@ function setup(){
     bird = new Sprite();
     bird.x = width / 2;
     bird.y = height / 2;
-    bird.addImage("normal", loadImage("assets/yellowbird-midflap.png"));
+    bird.x
 }
 
 function draw(){
