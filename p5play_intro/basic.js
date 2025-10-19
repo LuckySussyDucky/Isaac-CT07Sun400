@@ -114,10 +114,13 @@ console.log(oddSum);
     text("lower primary", 20, 360);
   }else if (age <= 12){
     console.log("upper primary");
+    text("upper primary", 20, 360); 
   }else if (age <= 16){
     console.log("secondary");
+    text("secondary", 20, 360);
   }else{
     console.log("a place for very old people");
+    text("a place for very old people", 20, 360);
   }
 
 }
