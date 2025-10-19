@@ -96,7 +96,7 @@ console.log(oddSum);
     text(groceries[i], 40 + i * 100, yOdd + 100);
   }
 
-  for(let i = 0; i < 2; i += 2){
+  for(let i = 0; i < 21; i += 2){
     console.log(i);
   }
 
