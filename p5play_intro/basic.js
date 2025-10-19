@@ -117,7 +117,7 @@ console.log(oddSum);
   }else if (age <= 16){
     category = "secondary";
   }else{
-    category = "a place for very old people";
+    "a place for very old people";
   }
   text("You are " + age + " years old in " +  category, 20, 120);
 
