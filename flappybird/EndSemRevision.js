@@ -9,7 +9,10 @@ function preload(){
 function setup(){
     new Canvas(400, 600);
 
-    bird.
+    bird.x = 200;
+    bird.y = 300;
+    bird.width = 40;
+    bird.height = 30;
 }
 
 function draw(){
