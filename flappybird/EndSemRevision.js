@@ -27,7 +27,9 @@ function setup(){
     circle.collider = "dynamic";
     circle.bounciness = 0.8;
 
-    floor
+    floor = new Sprite(width / 2, height - 10, width, 20);
+    floor.collider = "static";
+    floor.img = base;
 }
 
 function draw(){
