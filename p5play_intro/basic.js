@@ -125,7 +125,7 @@ console.log(oddSum);
 
   while(num <= 19){
     console.log(num);
-    text()
+    text(num, 20)
     num = num - 2;
   }
 }
