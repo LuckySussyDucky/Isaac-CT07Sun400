@@ -3,10 +3,11 @@ let bird;
 let midflap;
 let circle;
 let floor;
+let base;
 function preload(){
     background = loadImage("assets/background-day.png");
     midflap = loadImage("assets/yellowbird-midflap.png");
-    f
+    base = loadImage("assets/base.png");
 
 }
 
