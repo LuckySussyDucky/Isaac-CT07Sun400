@@ -104,7 +104,7 @@ console.log(oddSum);
   console.log(area);
   text("Area is " + area, 20, 330);
 
-  for(let i = 0; i < 47; i += 3){
+  for(let i = 0; i < 47; i++){
     if(i % 3 == 0){
       console.log(i);
     }
