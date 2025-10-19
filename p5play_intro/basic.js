@@ -96,12 +96,12 @@ console.log(oddSum);
     text(groceries[i], 40 + i * 100, yOdd + 100);
   }
 
-  for(let i = 0; i < 20; i += 2){
+  for(let i = 0; i < 2; i += 2){
     console.log(i);
   }
 
   area = height * base * 0.5;
   console.log(area);
-  text("Area is " + area, 20, 300);
+  text("Area is " + area, 20, 330);
 
 }
