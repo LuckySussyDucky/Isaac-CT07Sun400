@@ -107,9 +107,9 @@ console.log(oddSum);
   for(let i = 0; i < 47; i += 3){
     console.log(i);
     }
-    
-  let age = Math.floor(Math.random() * (25 - 1 + 1)) + 1;
-  let category = "";
+
+  age = Math.floor(Math.random() * (25 - 1 + 1)) + 1;
+  category = "";
   if (age <= 9){
     category = "lower primary";
   }else if (age <= 12){
