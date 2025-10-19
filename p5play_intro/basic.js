@@ -100,6 +100,6 @@ console.log(oddSum);
     console.log(i);
   }
 
-  let area = height * base * 0.5;
+  area = height * base * 0.5;
 
 }
