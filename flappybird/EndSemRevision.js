@@ -15,7 +15,7 @@ function setup(){
     bird.y = height / 2;
     bird.width = 40;
     bird.height = 30;
-    bird.img
+    bird.img = bird
 }
 
 function draw(){
