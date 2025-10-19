@@ -27,7 +27,7 @@ function setup(){
 
     floor = new Sprite(width / 2, height - 10, width + 100, 40);
     floor.collider = "static";
-    fl
+    floor.color = "green"; 
 }
 
 function draw(){
