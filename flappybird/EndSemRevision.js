@@ -1,4 +1,4 @@
-
+let background;
 function preload(){
     loadImage("assets/background-day.png");
 
