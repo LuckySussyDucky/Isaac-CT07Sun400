@@ -24,6 +24,6 @@ function draw(){
     image(background, 0, 0, width, height);
     
     if(mouse.presses("left") || kb.presses("space")){
-        bird.y = bird.y - 50;
+        bird.vel.y = bird.y - 50;
     }
 }
