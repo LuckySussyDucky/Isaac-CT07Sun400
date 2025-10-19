@@ -25,5 +25,5 @@ function draw(){
     
     if(mouse.presses("left")){
         bird.y = bird.y - 50;
-    };
+    }
 }
