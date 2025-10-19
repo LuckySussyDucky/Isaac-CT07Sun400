@@ -1,5 +1,5 @@
 let background;
-let sprite
+let bird;
 function preload(){
     background = loadImage("assets/background-day.png");
 
