@@ -107,6 +107,18 @@ console.log(oddSum);
   for(let i = 0; i < 47; i += 3){
     console.log(i);
     }
-
     
+  let age = Math.floor(Math.random() * (25 - 1 + 1)) + 1;
+  let category = "";
+  if (age <= 9){
+    category = "lower primary";
+  }else if (age <= 12){
+    category = "upper primary";
+  }else if (age <= 16){
+    category = "secondary";
+  }else{
+    category = "a place for very old people";
+  }
+  text("You are " + age + " years old in " +  category, 20, 120);
+
 }
