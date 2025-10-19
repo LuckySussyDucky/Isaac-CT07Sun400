@@ -21,15 +21,15 @@ function setup(){
     bird.width = 40;
     bird.height = 30;
     bird.img = midflap;
-    bird.collider = "dynamic";
+    bird.collider = "static";
 
     circle = new Sprite(width / 2, height / 2, 30);
     circle.collider = "dynamic";
-    circle.bounciness = 0.8;
+    circle.bounciness = 1;
 
     floor = new Sprite(width / 2, height - 10, width, 40);
     floor.collider = "static";
-    floor.img = base;
+    // floor.img = base;
 }
 
 function draw(){
