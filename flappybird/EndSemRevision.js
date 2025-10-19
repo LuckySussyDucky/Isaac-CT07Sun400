@@ -1,6 +1,7 @@
 let background;
 let bird;
 let midflap;
+let circle;
 function preload(){
     background = loadImage("assets/background-day.png");
     midflap = loadImage("assets/yellowbird-midflap.png");
