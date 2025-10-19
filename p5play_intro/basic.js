@@ -102,5 +102,6 @@ console.log(oddSum);
 
   area = height * base * 0.5;
   console.log(area);
+  text("Area is " + area, 20, 300);
 
 }
