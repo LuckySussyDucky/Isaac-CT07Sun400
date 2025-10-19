@@ -3,9 +3,11 @@ let bird;
 let midflap;
 let circle;
 let floor;
+let base;
 function preload(){
     background = loadImage("assets/background-day.png");
     midflap = loadImage("assets/yellowbird-midflap.png");
+    base = loadImage("assets/base.png");
 
 }
 
@@ -25,9 +27,9 @@ function setup(){
     circle.collider = "dynamic";
     circle.bounciness = 0.75;
 
-    floor = new Sprite(width / 2, height - 10, 100, 50);
+    floor = new Sprite(width / 2, height - 10, width, 40);
     floor.collider = "static";
-
+    // floor.img = base;
 }
 
 function draw(){
