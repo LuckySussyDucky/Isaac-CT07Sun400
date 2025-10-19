@@ -96,5 +96,7 @@ console.log(oddSum);
     text(groceries[i], 40 + i * 100, yOdd + 100);
   }
 
+  focus()
+
 }
 
