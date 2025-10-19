@@ -122,5 +122,8 @@ console.log(oddSum);
     console.log("a place for very old people");
     text("a place for very old people", 20, 360);
   }
-  
+
+  while(num <= 19){
+    
+  }
 }
