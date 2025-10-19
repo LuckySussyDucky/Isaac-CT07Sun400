@@ -11,6 +11,7 @@ function setup(){
     world.gravity.y = 10;
 
     bird = new Sprite();
+    bird.x
 }
 
 function draw(){
