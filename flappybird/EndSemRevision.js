@@ -20,7 +20,7 @@ function setup(){
     bird.img = midflap;
     bird.collider = "dynamic";
 
-    circle = new Sprite(width / 2, height / 2);
+    circle = new Sprite(width / 2, height / 2, );
     circle.collider = "dynamic";
     circle.bou
 }
