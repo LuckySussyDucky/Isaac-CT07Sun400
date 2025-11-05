@@ -1,4 +1,4 @@
-let
+let attempts = 0;
 
 function setup(){
     new Canvas(800, 600);
