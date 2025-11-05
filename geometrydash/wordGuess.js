@@ -3,7 +3,7 @@ let words = ["hotel", "river", "house", "mango"];
 let hint = "";
 let textBox;
 let button;
-let display();
+let display;
 
 function setup(){
     new Canvas(600, 400);
@@ -33,5 +33,5 @@ function draw(){
 }
 
 function displayText(){
-    
+
 }
