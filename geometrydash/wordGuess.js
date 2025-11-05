@@ -50,5 +50,5 @@ function getCorrectLetters(guess, hint){
 }
 
 function checkGuess(){
-    
+    let guess = textBox.value().toL
 }
