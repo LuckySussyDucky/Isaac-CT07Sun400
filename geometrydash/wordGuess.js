@@ -1,5 +1,6 @@
 let attempts = 0;
 let words = [];
+let hiddenWord = "";
 let hint = "";
 
 function setup(){
