@@ -1,5 +1,6 @@
 let attempts = 0;
 let words = [];
+let hint
 
 function setup(){
     new Canvas(600, 400);
