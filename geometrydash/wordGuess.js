@@ -1,6 +1,6 @@
 let attempts = 0;
 let words = [];
-let hint
+let hint;
 
 function setup(){
     new Canvas(600, 400);
@@ -12,5 +12,5 @@ function draw(){
     textAlign(CENTER, TOP);
     text("Guess the Word!", width / 2, 50);
     text("Attempts: " + attempts, width / 2, 100);
-    text
+    text("")
 }
