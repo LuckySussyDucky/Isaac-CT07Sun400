@@ -1,13 +1,12 @@
 let attempts = 0;
 let words = [];
-let hiddenWord = "";
 let hint = "";
 
 function setup(){
     new Canvas(600, 400);
     background(220);
 
-    
+
 }
 
 function draw(){
