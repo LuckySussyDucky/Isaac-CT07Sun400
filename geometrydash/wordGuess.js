@@ -6,5 +6,5 @@ function setup(){
 }
 
 function draw(){
-    Text()
+    text("")
 }
