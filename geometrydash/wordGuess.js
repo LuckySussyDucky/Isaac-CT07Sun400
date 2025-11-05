@@ -5,6 +5,7 @@ let hint = "";
 let textBox;
 let button;
 let display;
+let answer
 
 function setup(){
     new Canvas(600, 400);
@@ -21,6 +22,7 @@ function setup(){
     console.log(hint);
     hint = hint[0].toUpperCase() + "_ ".repeat(hint.length - 1);
     
+    getCorrectLetters(textBox.value(), hint)
 }
 
 function draw(){
@@ -29,6 +31,7 @@ function draw(){
     text("Guess the Word!", width / 2, 50);
     text("Attempts: " + attempts, width / 2, 100);
     text("Hint: " + hint, width / 2, 150);
+    text(display, width / 2, 200);
 
 
 }
@@ -40,10 +43,8 @@ function displayText(){
 function getCorrectLetters(guess, hint){
     let correctLetters = "";
     for(let i = 0; i < guess.length; i++){
-        if(guess[i] === hint[i]){
-            correctLetters += guess[i].toUpperCase();
-        } else {
-            correctLetters += "_";
+        if((words.includes(guess[i])) && !(correctLetters.includes(guess[i].toUpperCase()))){
+            correctLetters += guess[i].toUpperCase() + " ";
         }
     }
 }
