@@ -1,5 +1,5 @@
 let attempts = 0;
-let words = [];
+let words = ["hotel", ];
 let hint = "";
 let textBox;
 let button;
