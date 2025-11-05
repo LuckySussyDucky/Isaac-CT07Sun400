@@ -48,3 +48,7 @@ function getCorrectLetters(guess, hint){
         }
     }
 }
+
+function checkGuess(){
+    
+}
