@@ -15,7 +15,7 @@ function setup(){
     button.position(textBox.x + textBox.width + 30, 300);
 
     hint = random(words)
-    hint
+    hint = hint[0] + "_ ".repeat(hint.length - 1);
     
 }
 
