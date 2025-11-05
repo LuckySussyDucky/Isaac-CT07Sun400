@@ -12,7 +12,7 @@ function setup(){
     textBox.position(width / 2 + 377.5, 300);
 
     button = createButton();
-    button.position(textBox.x + textBox.width, 300);
+    button.position(textBox.x + textBox.width, 3);
     
 }
 
