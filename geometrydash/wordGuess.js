@@ -35,3 +35,7 @@ function draw(){
 function displayText(){
     display = textBox.value();
 }
+
+function getCorrectLetters(guess, hint){
+    
+}
