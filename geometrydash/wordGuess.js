@@ -10,6 +10,8 @@ function setup(){
 
     textBox = createInput();
     textBox.position(width / 2 + 377.5, 300);
+
+    
     
 }
 
