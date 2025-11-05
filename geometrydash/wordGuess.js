@@ -8,7 +8,7 @@ function setup(){
     background(220);
 
     textBox = createInput();
-    textBox.position(width / 2 + 37, 225);
+    textBox.position(width / 2 + 377.5, 225);
     
 }
 
