@@ -14,5 +14,5 @@ function draw(){
     text("Attempts: " + attempts, width / 2, 100);
     text("Hint: " + hint, width / 2, 150);
 
-    
+
 }
