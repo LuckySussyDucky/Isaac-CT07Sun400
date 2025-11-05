@@ -15,6 +15,7 @@ function setup(){
     button.position(textBox.x + textBox.width + 30, 300);
 
     hint = random(words)
+    hint
     
 }
 
