@@ -52,7 +52,7 @@ function checkGuess(){
     let guess = textBox.value().toLowerCase();
     attempts += 1;
 
-    if(guess){}
+    if(guess ){
 
     }
 }
