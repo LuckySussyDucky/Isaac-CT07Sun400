@@ -11,7 +11,7 @@ function setup(){
     textBox = createInput();
     textBox.position(width / 2 + 377.5, 300);
 
-    
+    button = createButton("Submit Guess");
     
 }
 
