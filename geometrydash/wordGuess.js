@@ -40,4 +40,11 @@ function displayText(){
 
 function getCorrectLetters(guess, hint){
     let correctLetters = "";
+    for(let i = 0; i < guess.length; i++){
+        if(guess[i] === hint[i]){
+            correctLetters += guess[i].toUpperCase();
+        } else {
+            correctLetters += "_";
+        }
+    }
 }
