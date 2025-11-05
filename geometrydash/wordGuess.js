@@ -3,6 +3,7 @@ let words = ["hotel", "river", "house", "mango"];
 let hint = "";
 let textBox;
 let button;
+let display();
 
 function setup(){
     new Canvas(600, 400);
@@ -13,6 +14,7 @@ function setup(){
 
     button = createButton("Guess");
     button.position(textBox.x + textBox.width + 30, 300);
+    button.mousePressed(displayText);
 
     hint = random(words)
     console.log(hint);
@@ -28,4 +30,8 @@ function draw(){
     text("Hint: " + hint, width / 2, 150);
 
 
+}
+
+function displayText(){
+    
 }
