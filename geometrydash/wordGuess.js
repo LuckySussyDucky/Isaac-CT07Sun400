@@ -13,6 +13,8 @@ function setup(){
 
     button = createButton("Guess");
     button.position(textBox.x + textBox.width + 30, 300);
+
+    
     
 }
 
