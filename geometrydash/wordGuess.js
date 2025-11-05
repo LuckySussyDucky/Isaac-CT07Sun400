@@ -16,7 +16,7 @@ function setup(){
 
     hint = random(words)
     console.log(hint);
-    hint = hint[0] + "_ _"
+    hint = hint[0] + "_ ".
     
 }
 
