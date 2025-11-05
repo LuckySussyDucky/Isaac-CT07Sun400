@@ -6,5 +6,5 @@ function setup(){
 }
 
 function draw(){
-    text("")
+    text("Guess the Word!")
 }
