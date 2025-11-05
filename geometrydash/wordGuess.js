@@ -33,5 +33,5 @@ function draw(){
 }
 
 function displayText(){
-
+    display = text
 }
