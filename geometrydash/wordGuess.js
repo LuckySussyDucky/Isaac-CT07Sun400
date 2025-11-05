@@ -1,12 +1,13 @@
 let attempts = 0;
 let words = [];
 let hint = "";
+let textBox;
 
 function setup(){
     new Canvas(600, 400);
     background(220);
 
-
+    textBox = createInput();
 }
 
 function draw(){
