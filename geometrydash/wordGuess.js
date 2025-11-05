@@ -6,6 +6,6 @@ function setup(){
 }
 
 function draw(){
-    text("Guess the Word!", 200, 300);
+    text("Guess the Word!", 250, );
     text("Attempts: " + attempts, 250, 80);
 }
