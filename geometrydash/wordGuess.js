@@ -52,8 +52,8 @@ function checkGuess() {
 
 function getCorrectLetters(guess, hiddenWord) {
     let correctLetters = "";
-    for (let i = 0; i < word.length; i++) {
-        if (word.includes(guess[i]) && !correctLetters.includes(guess[i].toUpperCase())) {
+    for (let i = 0; i < hiddenWord.length; i++) {
+        if (hiddenWord.includes(guess[i]) && !correctLetters.includes(guess[i].toUpperCase())) {
             correctLetters += guess[i].toUpperCase() + " ";
         }
     }
