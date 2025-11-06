@@ -36,10 +36,6 @@ function draw(){
 
 }
 
-function checkGuess(){
-    
-}
-
 ////////////////////////////////////////////////////////////
 
 // function checkGuess() {
