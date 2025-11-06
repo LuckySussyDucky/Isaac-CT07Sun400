@@ -41,7 +41,7 @@ function getCorrectLetters(guess, hiddenWord){
         //     correctLetters += guess[i].toUpperCase() + " ";
         // }
 
-        for (let i = 0; i < hiddenWord.length; i++) {
+        for (let x = 0; x < hiddenWord.length; i++) {
             if (hiddenWord[i] === guess[i]){
 
             }
