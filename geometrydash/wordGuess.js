@@ -4,7 +4,7 @@ let hint = "";
 let textBox;
 let button;
 let display;
-let guess;
+let answer;
 
 function setup(){
     new Canvas(600, 400);
@@ -49,23 +49,16 @@ function getCorrectLetters(guess, word) {
     return correctLetters;
 }
 
-function checkGuess() {
-    let guess = inputBox.value().toLowerCase();
-    attempts++;
+function checkGuess(){
+    let guess = textBox.value().toLowerCase();
+    attempts += 1;
 
-    if (guess === hiddenWord) {
-        message = "Correct! The word was '" + hiddenWord.toUpperCase() + "'!";
-    } 
-    else if (guess.length != 5){
-        message = "5 letter words only."
-    }
-    else {
-        let correctLetters = getCorrectLetters(guess, hiddenWord);
-        message = "Wrong! Correct letters: " + correctLetters;
+    if(guess ){
+
     }
 }
 
-/////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
 
 function setup() {
     createCanvas(600, 400);
