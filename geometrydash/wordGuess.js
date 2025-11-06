@@ -39,6 +39,7 @@ function draw(){
 function checkGuess() {
     let guess = textBox.value().toLowerCase();
     attempts++;
+    let message = "";
 
     if (guess.toLowerCase() === hiddenWord.toLowerCase()) {
         message = "Correct! The word was '" + hiddenWord.toUpperCase() + "'!";
