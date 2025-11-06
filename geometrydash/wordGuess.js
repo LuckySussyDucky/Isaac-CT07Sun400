@@ -21,7 +21,7 @@ function setup(){
     console.log(hiddenWord);
     hiddenWord = hiddenWord[0].toUpperCase() + "_ ".repeat(hiddenWord.length - 1);
     
-    getCorrectLetters(textBox.value(), hint)
+    getCorrectLetters(textBox.value(), hiddenWord)
 }
 
 function draw(){
