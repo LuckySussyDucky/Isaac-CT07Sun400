@@ -19,7 +19,7 @@ function setup(){
 
     hiddenWord = random(words)
     console.log(hint);
-    hint = hint[0].toUpperCase() + "_ ".repeat(hint.length - 1);
+    hiddenWord = hint[0].toUpperCase() + "_ ".repeat(hint.length - 1);
     
     getCorrectLetters(textBox.value(), hint)
 }
