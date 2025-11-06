@@ -32,7 +32,7 @@ function draw(){
     text("Guess the Word!", width / 2, 50);
     text("Attempts: " + attempts, width / 2, 100);
     text("Hint: " + hiddenWord, width / 2, 150);
-    text(display, width / 2, 300);
+    text(display, width / 2, 200);
 
 }
 
@@ -40,7 +40,7 @@ function checkGuess() {
     let guess = textBox.value().toLowerCase();
     attempts++;
 
-    if (guess() === hiddenWord()) {
+    if (guess.toLowerCase() === hiddenWord.toLowerCase()) {
         message = "Correct! The word was '" + hiddenWord.toUpperCase() + "'!";
     } 
     else if (guess.length != 5){
@@ -51,7 +51,7 @@ function checkGuess() {
         message = "Wrong! Correct letters: " + correctLetters;
     }
 
-    display = message;
+    display
 }
 
 function getCorrectLetters(guess, hiddenWord){
