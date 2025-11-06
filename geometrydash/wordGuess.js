@@ -40,10 +40,10 @@ function checkGuess() {
     let guess = textBox.value().toLowerCase();
     attempts++;
     let message = "";
-
-    if (guess == hiddenWord) {
-        console.log(guess);
+console.log(guess);
         console.log("Teacher")
+    if (guess == hiddenWord) {
+        
         message = "Correct! The word was '" + hiddenWord.toUpperCase() + "'!";
     } 
     else if (guess.length != 5){
