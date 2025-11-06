@@ -35,20 +35,6 @@ function draw(){
     text(display, width / 2, 200);
 
 }
-
-function getCorrectLetters(guess, hiddenWord){
-    let correctLetters = "";
-    for (let i = 0; i < hiddenWord.length; i++){
-        for (let x = 0; x < hiddenWord.length; x++){
-            if (hiddenWord[i] === guess[x]){
-                    correctLetters += hiddenWord[i].toUpperCase() + " ";
-            }
-        }
-    }
-
-    return correctLetters;
-}
-
 function checkGuess() {
     let guess = textBox.value().toLowerCase();
     attempts++;
@@ -65,6 +51,19 @@ function checkGuess() {
     }
 
     text(message, width / 2, 250); 
+}
+
+function getCorrectLetters(guess, hiddenWord){
+    let correctLetters = "";
+    for (let i = 0; i < hiddenWord.length; i++){
+        for (let x = 0; x < hiddenWord.length; x++){
+            if (hiddenWord[i] === guess[x]){
+                    correctLetters += hiddenWord[i].toUpperCase() + " ";
+            }
+        }
+    }
+
+    return correctLetters;
 }
 
 ////////////////////////////////////////////////////////////
