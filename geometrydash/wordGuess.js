@@ -40,6 +40,10 @@ function getCorrectLetters(guess, hiddenWord) {
         if (hiddenWord.includes(guess[i]) && !correctLetters.includes(guess[i].toUpperCase())){
             correctLetters += guess[i].toUpperCase() + " ";
         }
+
+        for (let i = 0; i < hiddenWord.length; i++) {
+            
+        }
     }
     return correctLetters;
 }
