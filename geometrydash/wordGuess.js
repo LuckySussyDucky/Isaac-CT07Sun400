@@ -18,10 +18,6 @@ function setup(){
     button.position(textBox.x + textBox.width + 30, 300);
     button.mousePressed(checkGuess);
 
-    if (kb.presses("enter")){
-        checkGuess();
-    }
-
     hiddenWord = random(words)
     console.log(hiddenWord);
     hint = hiddenWord[0].toUpperCase() + "_ ".repeat(hiddenWord.length - 1);
