@@ -47,6 +47,7 @@ function getCorrectLetters(guess, hiddenWord){
         }
     }
     return correctLetters;
+    
 }
 }
 
