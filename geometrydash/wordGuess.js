@@ -39,6 +39,22 @@ function displayText(){
     display = textBox.value();
 }
 
+function checkGuess() {
+    let guess = inputBox.value().toLowerCase();
+    attempts++;
+
+    if (guess === hiddenWord) {
+        message = "Correct! The word was '" + hiddenWord.toUpperCase() + "'!";
+    } 
+    else if (guess.length != 5){
+        message = "5 letter words only."
+    }
+    else {
+        let correctLetters = getCorrectLetters(guess, hiddenWord);
+        message = "Wrong! Correct letters: " + correctLetters;
+    }
+}
+
 function getCorrectLetters(guess, word) {
     let correctLetters = "";
     for (let i = 0; i < word.length; i++) {
