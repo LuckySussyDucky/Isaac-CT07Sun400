@@ -48,7 +48,7 @@ function checkGuess() {
     let guess = textBox.value().toLowerCase();
     attempts++;
 
-    if (guess === hiddenWord) {
+    if (guess.toLowerCase === hiddenWord) {
         message = "Correct! The word was '" + hiddenWord.toUpperCase() + "!";
     } 
     else if (guess.length != 5){
