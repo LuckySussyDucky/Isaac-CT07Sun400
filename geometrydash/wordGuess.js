@@ -42,7 +42,7 @@ function getCorrectLetters(guess, hiddenWord) {
         }
 
         for (let i = 0; i < hiddenWord.length; i++) {
-
+            
         }
     }
     return correctLetters;
