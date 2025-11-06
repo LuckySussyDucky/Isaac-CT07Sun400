@@ -51,7 +51,7 @@ function checkGuess() {
         message = "Wrong! Correct letters: " + correctLetters;
     }
 
-    text(message, width / 2, 250); 
+    display = message;
 }
 
 function getCorrectLetters(guess, hiddenWord){
