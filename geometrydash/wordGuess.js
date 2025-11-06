@@ -46,8 +46,10 @@ function getCorrectLetters(guess, hiddenWord){
 
             }
         }
-    
     }
+
+    
+
 }
 
 function checkGuess() {
