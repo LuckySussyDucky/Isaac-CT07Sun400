@@ -42,6 +42,7 @@ function checkGuess() {
     let message = "";
 
     if (guess.toLowerCase() === hiddenWord.toLowerCase()) {
+        console.log("Teacher")
         message = "Correct! The word was '" + hiddenWord.toUpperCase() + "'!";
     } 
     else if (guess.length != 5){
