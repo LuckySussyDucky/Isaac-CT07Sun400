@@ -49,12 +49,19 @@ function getCorrectLetters(guess, word) {
     return correctLetters;
 }
 
-function checkGuess(){
-    let guess = textBox.value().toLowerCase();
-    attempts += 1;
+function checkGuess() {
+    let guess = inputBox.value().toLowerCase();
+    attempts++;
 
-    if(guess ){
-
+    if (guess === hiddenWord) {
+        message = "Correct! The word was '" + hiddenWord.toUpperCase() + "'!";
+    } 
+    else if (guess.length != 5){
+        message = "5 letter words only."
+    }
+    else {
+        let correctLetters = getCorrectLetters(guess, hiddenWord);
+        message = "Wrong! Correct letters: " + correctLetters;
     }
 }
 
