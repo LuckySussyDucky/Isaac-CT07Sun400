@@ -36,7 +36,7 @@ function draw(){
 }
 
 function checkGuess() {
-    let guess = inputBox.value().toLowerCase();
+    let guess = textBox.value().toLowerCase();
     attempts++;
 
     if (guess === hiddenWord) {
