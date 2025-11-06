@@ -48,8 +48,7 @@ function getCorrectLetters(guess, hiddenWord){
         }
     }
 
-    
-
+    return correctLetters;
 }
 
 function checkGuess() {
