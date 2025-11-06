@@ -3,7 +3,7 @@ let words = ["table","about","yacht","magic","faith","vague","under","zebra","oc
 let hiddenWord = "";
 let textBox;
 let button;
-let display;
+let display = "";
 let answer;
 
 function setup(){
