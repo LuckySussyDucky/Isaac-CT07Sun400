@@ -36,34 +36,34 @@ function draw(){
 
 }
 
-function checkGuess() {
-    let guess = textBox.value().toLowerCase();
-    attempts++;
+// function checkGuess() {
+//     let guess = textBox.value().toLowerCase();
+//     attempts++;
 
-    if (guess.toLowerCase() === hiddenWord.toLowerCase()) {
-        message = "Correct! The word was '" + hiddenWord.toUpperCase() + "'!";
-    } 
-    else if (guess.length != 5){
-        message = "5 letter words only."
-    }
-    else{
-        let correctLetters = getCorrectLetters(guess, hiddenWord);
-        message = "Wrong! Correct letters: " + correctLetters;
-    }
+//     if (guess.toLowerCase() === hiddenWord.toLowerCase()) {
+//         message = "Correct! The word was '" + hiddenWord.toUpperCase() + "'!";
+//     } 
+//     else if (guess.length != 5){
+//         message = "5 letter words only."
+//     }
+//     else{
+//         let correctLetters = getCorrectLetters(guess, hiddenWord);
+//         message = "Wrong! Correct letters: " + correctLetters;
+//     }
 
-    text(message, width / 2, 250); 
-}
+//     text(message, width / 2, 250); 
+// }
 
-function getCorrectLetters(guess, hiddenWord){
-    let correctLetters = "";
-    for (let i = 0; i < hiddenWord.length; i++){
-        if (hiddenWord.includes(guess[i]) && !correctLetters.includes(guess[i].toUpperCase())) {
-            correctLetters += guess[i].toUpperCase() + " ";
-        }
-    }
+// function getCorrectLetters(guess, hiddenWord){
+//     let correctLetters = "";
+//     for (let i = 0; i < hiddenWord.length; i++){
+//         if (hiddenWord.includes(guess[i]) && !correctLetters.includes(guess[i].toUpperCase())) {
+//             correctLetters += guess[i].toUpperCase() + " ";
+//         }
+//     }
 
-    return correctLetters;
-}
+//     return correctLetters;
+// }
 
 ////////////////////////////////////////////////////////////
 
