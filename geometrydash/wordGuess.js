@@ -49,7 +49,7 @@ function checkGuess() {
         message = "Wrong! Correct letters: " + correctLetters;
     }
 
-    
+    display = message;
 }
 
 function getCorrectLetters(guess, hiddenWord) {
