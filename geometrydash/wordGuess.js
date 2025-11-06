@@ -18,7 +18,7 @@ function setup(){
     button.mousePressed(displayText);
 
     hiddenWord = random(words)
-    console.log(hint);
+    console.log(hiddenWord);
     hiddenWord = hiddenWord[0].toUpperCase() + "_ ".repeat(hiddenWord.length - 1);
     
     getCorrectLetters(textBox.value(), hint)
