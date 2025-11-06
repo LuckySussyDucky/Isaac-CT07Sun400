@@ -43,9 +43,9 @@ function getCorrectLetters(guess, hiddenWord){
             }
         }
     }
-}
 
     return correctLetters;
+}
 
 function checkGuess() {
     let guess = textBox.value().toLowerCase();
