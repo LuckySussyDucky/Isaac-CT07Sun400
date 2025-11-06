@@ -39,13 +39,14 @@ function displayText(){
     display = textBox.value();
 }
 
-function getCorrectLetters(guess, hint){
+function getCorrectLetters(guess, word) {
     let correctLetters = "";
-    for(let i = 0; i < guess.length; i++){
-        if((words.includes(guess[i])) && !(correctLetters.includes(guess[i].toUpperCase()))){
+    for (let i = 0; i < word.length; i++) {
+        if (word.includes(guess[i]) && !correctLetters.includes(guess[i].toUpperCase())) {
             correctLetters += guess[i].toUpperCase() + " ";
         }
     }
+    return correctLetters;
 }
 
 function checkGuess(){
@@ -58,15 +59,6 @@ function checkGuess(){
 }
 
 ////////////////////////////////////////////////////////////
-
-let words = ["apple", "mango", "grape", "peach", "melon", "table", "chair", "brick", "cloud", "storm", 
-    "beach", "river", "flame", "grass", "skull", "horse", "laser", "brain", "plane", "train"];
-
-let hiddenWord;
-let inputBox, submitButton;
-let message = "";
-let attempts = 0;
-let displayText = ""; // Holds underscores with first letter revealed
 
 function setup() {
     createCanvas(600, 400);
