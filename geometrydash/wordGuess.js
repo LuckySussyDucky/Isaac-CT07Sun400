@@ -3,6 +3,7 @@ const words = ["table","about","yacht","magic","faith","vague","under","zebra","
 let hiddenWord = "";
 let textBox;
 let button;
+let hint = "";
 let display = "";
 let answer;
 
