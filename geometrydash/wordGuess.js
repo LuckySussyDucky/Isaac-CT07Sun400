@@ -34,18 +34,20 @@ function draw(){
 
 }
 
-function getCorrectLetters(guess, hiddenWord) {
+function getCorrectLetters(guess, hiddenWord){
     let correctLetters = "";
     for (let i = 0; i < hiddenWord.length; i++) {
-        if (hiddenWord.includes(guess[i]) && !correctLetters.includes(guess[i].toUpperCase())){
-            correctLetters += guess[i].toUpperCase() + " ";
-        }
+        // if (hiddenWord.includes(guess[i]) && !correctLetters.includes(guess[i].toUpperCase())){
+        //     correctLetters += guess[i].toUpperCase() + " ";
+        // }
 
         for (let i = 0; i < hiddenWord.length; i++) {
-            
+            if (hiddenWord[i] === guess[i]){
+
         }
     }
     return correctLetters;
+}
 }
 
 function checkGuess() {
