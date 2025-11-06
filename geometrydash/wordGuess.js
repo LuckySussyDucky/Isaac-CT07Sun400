@@ -45,10 +45,10 @@ function getCorrectLetters(guess, hiddenWord){
             if (hiddenWord[i] === guess[i]){
 
         }
-    }
+        }
     return correctLetters;
     
-}
+    }
 }
 
 function checkGuess() {
