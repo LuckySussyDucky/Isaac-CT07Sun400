@@ -63,6 +63,8 @@ function checkGuess() {
         let correctLetters = getCorrectLetters(guess, hiddenWord);
         message = "Wrong! Correct letters: " + correctLetters;
     }
+
+    return
 }
 
 ////////////////////////////////////////////////////////////
