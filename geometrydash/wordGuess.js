@@ -49,7 +49,7 @@ function checkGuess() {
     attempts++;
 
     if (guess.toLowerCase() === hiddenWord.toLowerCase()) {
-        message = "Correct! The word was '" + hiddenWord.toUpperCase() + "!";
+        message = "Correct! The word was '" + hiddenWord.toUpperCase() + "'!";
     } 
     else if (guess.length != 5){
         message = "5 letter words only."
