@@ -42,7 +42,7 @@ function getCorrectLetters(guess, hiddenWord){
         // }
 
         for (let x = 0; x < hiddenWord.length; x++) {
-            if (hiddenWord[i] === guess[x]){
+            if (hiddenWord[i].toLowerCase() === guess[x].toLowerCase()){
 
             }
         }
