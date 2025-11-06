@@ -16,6 +16,7 @@ function setup(){
     button = createButton("Guess");
     button.position(textBox.x + textBox.width + 30, 300);
     button.mousePressed(checkGuess);
+    button.size(100, 30);
 
     hiddenWord = random(words)
     console.log(hiddenWord);
