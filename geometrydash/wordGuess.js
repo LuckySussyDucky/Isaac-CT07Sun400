@@ -17,7 +17,7 @@ function setup(){
     button.position(textBox.x + textBox.width + 30, 300);
     button.mousePressed(displayText);
 
-    hint = random(words)
+    hiddenWord = random(words)
     console.log(hint);
     hint = hint[0].toUpperCase() + "_ ".repeat(hint.length - 1);
     
