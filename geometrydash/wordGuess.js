@@ -32,7 +32,7 @@ function draw(){
     text("Guess the Word!", width / 2, 50);
     text("Attempts: " + attempts, width / 2, 100);
     text("Hint: " + hiddenWord, width / 2, 150);
-    text(display, width / 2, 200);
+    text(display, width / 2, 300);
 
 }
 
