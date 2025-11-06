@@ -35,6 +35,7 @@ function draw(){
     text(display, width / 2, 200);
 
 }
+
 function checkGuess() {
     let guess = textBox.value().toLowerCase();
     attempts++;
