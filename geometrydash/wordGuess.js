@@ -35,6 +35,9 @@ function draw(){
     text("Hint: " + hint, width / 2, 150);
     text(display, width / 2, 300);
 
+    if (kb.presses("enter")){
+        checkGuess();
+    }
 }
 
 function checkGuess(){
