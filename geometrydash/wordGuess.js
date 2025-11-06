@@ -4,7 +4,7 @@ let hint = "";
 let textBox;
 let button;
 let display;
-let answer;
+let guess;
 
 function setup(){
     new Canvas(600, 400);
